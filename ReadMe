@@ -31,7 +31,7 @@ TEXT FORMATTING
 * HTML is a web page structure language that uses tags enclosed in less-than and greater-than symbols to mark elements, with two types: opening and closing tags.
 * HTML elements, like paragraphs, are defined by tags that work together to provide meaning to content. 
 * HTML markup helps computers understand and interpret content, serving as a bridge between humans and computers. 
-* An example of this is a paragraph with emphasized text, wrapped in p tags and nested within em tags.
+* An example of this is a paragraph with emphasized text, wrapped in <p> tags and nested within <em> tags.
 
 
 
