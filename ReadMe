@@ -1,10 +1,10 @@
-What is HTML?
+WHAT IS HTML?
 
 * HTML is a versatile language that is used in websites, apps, and various software to deliver a wide range of content, such as text, images, videos, audio, forms, and interactive experiences.
 * It acts as a foundation for all things digital, ensuring that different types of information can be effectively communicated and understood by both humans and computers.
 * By structuring our content, HTML helps bridge the gap between human and computer languages, making it easier for computers to comprehend and interact with human activities on the web.
 
-Core Web technologies or languages
+<Core Web technologies or languages>
 
 HTML 
 * HTML, CSS, and Javascript are the three programming languages that make up the web. 
@@ -13,7 +13,7 @@ HTML
 * Its simplicity allows it to be resilient and robust, even in the face of errors or missing elements. 
 * HTML can still deliver a functional result by guessing and fixing any issues it encounters.
 
-Css
+CSS
 * CSS, or Cascading Style Sheets, is a tricky web tool responsible for styling web pages with colors, fonts, and sizes. 
 * Its computer science side makes it both fragile and powerful, with browsers being smart enough to skip hiccups and make most of it work.
 
@@ -26,7 +26,8 @@ JavaScript
 * HTML is preferred for tasks that can be done in HTML, while other languages are used for more complex tasks.
 
 
-Text formatting 
+TEXT FORMATTING
+
 * HTML is a web page structure language that uses tags enclosed in less-than and greater-than symbols to mark elements, with two types: opening and closing tags.
 * HTML elements, like paragraphs, are defined by tags that work together to provide meaning to content. 
 * HTML markup helps computers understand and interpret content, serving as a bridge between humans and computers. 
