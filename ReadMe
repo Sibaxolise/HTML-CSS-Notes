@@ -1,1 +1,36 @@
-summary of html and css
+What is HTML?
+
+* HTML is a versatile language that is used in websites, apps, and various software to deliver a wide range of content, such as text, images, videos, audio, forms, and interactive experiences.
+* It acts as a foundation for all things digital, ensuring that different types of information can be effectively communicated and understood by both humans and computers.
+* By structuring our content, HTML helps bridge the gap between human and computer languages, making it easier for computers to comprehend and interact with human activities on the web.
+
+Core Web technologies or languages
+
+HTML 
+* HTML, CSS, and Javascript are the three programming languages that make up the web. 
+* HTML, or HyperText Markup Language, is responsible for structuring the content of a website and providing access to browser functionalities. 
+* Unlike other programming languages, HTML is declarative and focuses on making simple declarations rather than complex logic.
+* Its simplicity allows it to be resilient and robust, even in the face of errors or missing elements. 
+* HTML can still deliver a functional result by guessing and fixing any issues it encounters.
+
+Css
+* CSS, or Cascading Style Sheets, is a tricky web tool responsible for styling web pages with colors, fonts, and sizes. 
+* Its computer science side makes it both fragile and powerful, with browsers being smart enough to skip hiccups and make most of it work.
+
+JavaScript 
+* JavaScript is a powerful programming language that enables the creation of interactive content on websites. 
+* It surpasses the capabilities of HTML and CSS, but can be fragile if outdated browsers or outdated computers fail to understand the code.
+* The Web is a  unique software that operates on various platforms and devices, enabling content sharing across different devices.
+* To achieve this, the Web relies on three programming languages: HTML, CSS, and JavaScript. 
+* Developers combine these languages to achieve resilience, robustness, and power in their websites. 
+* HTML is preferred for tasks that can be done in HTML, while other languages are used for more complex tasks.
+
+
+Text formatting 
+* HTML is a web page structure language that uses tags enclosed in less-than and greater-than symbols to mark elements, with two types: opening and closing tags.
+* HTML elements, like paragraphs, are defined by tags that work together to provide meaning to content. 
+* HTML markup helps computers understand and interpret content, serving as a bridge between humans and computers. 
+* An example of this is a paragraph with emphasized text, wrapped in p tags and nested within em tags.
+
+
+
