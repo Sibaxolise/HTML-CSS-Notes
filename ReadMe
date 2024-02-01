@@ -1,5 +1,5 @@
-
-WHAT IS HTML?
+INTRODUCTION TO HTML
+<h2>WHAT IS HTML?</h2>
 
 * HTML is a versatile language that is used in websites, apps, and various software to deliver a wide range of content, such as text, images, videos, audio, forms, and interactive experiences.
 * It acts as a foundation for all things digital, ensuring that different types of information can be effectively communicated and understood by both humans and computers.
@@ -27,8 +27,9 @@ JavaScript
 * HTML is preferred for tasks that can be done in HTML, while other languages are used for more complex tasks.
 
 
-Text formatting 
-Html syntax 
+TEXT FORMATTING
+
+~Html syntax 
 HTML is a web page structure language that uses tags enclosed in less-than and greater-than symbols to mark elements, with two types: opening and closing tags.
 HTML elements, like paragraphs, are defined by tags that work together to provide meaning to content. 
 HTML markup helps computers understand and interpret content, serving as a bridge between humans and computers. 
