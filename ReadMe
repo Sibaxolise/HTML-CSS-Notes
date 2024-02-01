@@ -1,5 +1,5 @@
 INTRODUCTION TO HTML
-<h2>WHAT IS HTML?</h2>
+~WHAT IS HTML?
 
 * HTML is a versatile language that is used in websites, apps, and various software to deliver a wide range of content, such as text, images, videos, audio, forms, and interactive experiences.
 * It acts as a foundation for all things digital, ensuring that different types of information can be effectively communicated and understood by both humans and computers.
@@ -30,104 +30,122 @@ JavaScript
 TEXT FORMATTING
 
 ~Html syntax 
-HTML is a web page structure language that uses tags enclosed in less-than and greater-than symbols to mark elements, with two types: opening and closing tags.
-HTML elements, like paragraphs, are defined by tags that work together to provide meaning to content. 
-HTML markup helps computers understand and interpret content, serving as a bridge between humans and computers. 
-An example of this is a paragraph with emphasized text, wrapped in p tags and nested within em tags.
-Paragraph 
-For the browser to recorgnize the   paragraph we use an opening and closing <p> tag before the first paragraph and a closing </p> tag at the end.
+* HTML is a web page structure language that uses tags enclosed in less-than and greater-than symbols to mark elements, with two types: opening and closing tags.
+* HTML elements, like paragraphs, are defined by tags that work together to provide meaning to content. 
+* HTML markup helps computers understand and interpret content, serving as a bridge between humans and computers. 
+* An example of this is a paragraph with emphasized text, wrapped in p tags and nested within em tags.
 
-Headlines
-Web pages use titles, headlines, and subheadings to divide long text into smaller chunks, aiding comprehension. Headlines on landing pages serve as clickable titles, leading readers to further information.
-Headlines in HTML come in six types: h1, h2, h3, h4, h5, and h6.
- Each has a distinct visual effect and hierarchy. 
-The largest is h1, while the smallest is h6. 
-Selecting the appropriate headline level is straightforward, starting with the opening tag<h2> and ending with the closing tag</h2>.
-The choice of headline level is based on its meaning, with h1 serving as the main title and h2 as a subheading.
-Hierarchical headlines provide meaning to the browser and ensure consistency for screen reader users.
-For semantic hierarchy you have to make use of this elements.
-Bold and italic 
-The use of italics or bold in book publishing, journalism, and magazine production adheres to specific rules to ensure correctness.
-The use of italics in HTML is to make a strong point and emphasize something.
- The "<i>" element is used to apply visual italics, while the "<em>" element adds emphasis. 
-These elements serve different purposes, communicating semantic and human meaning. 
-The "<strong>" element is used to show importance, seriousness, or urgency, while the "<b>" element is more generic and neutral, allowing for bold visuals without implying any alternative voice .
- It is crucial not to use only one element for everything, as their effects on the listener or reader can vary depending on the context.
-HTML has four elements for bolding or italicizing text: "<em>" and "<strong>," which carry a meaning, and "<i>" and "<b>," which are used for styling.
+~Paragraph 
+* For the browser to recorgnize the paragraph we use an opening and closing <p> tag before the first paragraph and a closing </p> tag at the end.
 
-HTML lists
-The browser has essential list but sometimes you may notice them because they are not displayed as traditional lists.
-In HTML, there are three types of lists: unordered lists, ordered lists, and definition lists. 
-<unordered list >
-Unordered lists are commonly used in web design, with each item enclosed in an <li> element.
- The entire list is wrapped in an <ul> element, representing an unordered list.
-When displayed on browser it appears in bullet points or marker.
-The <ul> element defines to the browser what type of list to display and the list appearance can be changed using CSS.
-<ordered list >
-The ordered list is a type of list with a specific order, unlike the unordered list. 
-It uses <ol> to wrap items, indicating a clear order. For example, a recipe can be created with numbered steps.
-<definition list>
-A definition list in HTML is a key-value pair in computer science, consisting of terms and their corresponding descriptions.
- It uses specific elements, such as <dt> element for terms and <did> element descriptions, and is wrapped in a <dl> element, representing the entire list. 
-Multiple descriptions can be added, and the tags are placed side by side.
-HTML quotes 
-<block quote>
-The  <cite> and <blockqoute> elements serve semantic purposes to other computers to inform that the paragraph is quoted.
-This elements allow custom styling using CSS .
-The blockquote element can contain any element, including paragraphs, lists, or headlines, but it's crucial to ensure elements are nested within each other in a meaningful manner.
-< in-line quotes >
-The "<q>" element in HTML is used for inline quotes
-it automatically provides the appropriate quote marks for different languages. 
-Inline elements like <q> are used within a line and they wrap around inline phrases of text.
-Block-level elements like block quotes create separate blocks on the page. 
-<date time>
+~Headlines
+* Web pages use titles, headlines, and subheadings to divide long text into smaller chunks, aiding comprehension. Headlines on landing pages serve as clickable titles, leading readers to further information.
+* Headlines in HTML come in six types: h1, h2, h3, h4, h5, and h6.
+* Each has a distinct visual effect and hierarchy. 
+* The largest is h1, while the smallest is h6. 
+* Selecting the appropriate headline level is straightforward, starting with the opening tag<h2> and ending with the closing tag</h2>.
+* The choice of headline level is based on its meaning, with h1 serving as the main title and h2 as a subheading.
+* Hierarchical headlines provide meaning to the browser and ensure consistency for screen reader users.
+* For semantic hierarchy you have to make use of this elements.
+
+~Bold and italic 
+* The use of italics or bold in book publishing, journalism, and magazine production adheres to specific rules to ensure correctness.
+* The use of italics in HTML is to make a strong point and emphasize something.
+* The "<i>" element is used to apply visual italics, while the "<em>" element adds emphasis. 
+* These elements serve different purposes, communicating semantic and human meaning. 
+* The "<strong>" element is used to show importance, seriousness, or urgency, while the "<b>" element is more generic and neutral, allowing for bold visuals without implying any alternative voice .
+* It is crucial not to use only one element for everything, as their effects on the listener or reader can vary depending on the context.
+* HTML has four elements for bolding or italicizing text: "<em>" and "<strong>," which carry a meaning, and "<i>" and "<b>," which are used for styling.
+
+~HTML lists
+* The browser has essential list but sometimes you may notice them because they are not displayed as traditional lists.
+* In HTML, there are three types of lists: unordered lists, ordered lists, and definition lists. 
+
+     <unordered list >
+  * Unordered lists are commonly used in web design, with each item enclosed in an <li> element.
+  * The entire list is wrapped in an <ul> element, representing an unordered list.
+  * When displayed on browser it appears in bullet points or marker.
+  * The <ul> element defines to the browser what type of list to display and the list appearance can be changed using CSS.
+
+     <ordered list >
+  * The ordered list is a type of list with a specific order, unlike the unordered list. 
+  * It uses <ol> to wrap items, indicating a clear order. For example, a recipe can be created with numbered steps.
+
+     <definition list>
+  * A definition list in HTML is a key-value pair in computer science, consisting of terms and their corresponding descriptions.
+  * It uses specific elements, such as <dt> element for terms and <did> element descriptions, and is wrapped in a <dl> element, representing the entire list. 
+  * Multiple descriptions can be added, and the tags are placed side by side.
+
+~HTML quotes 
+
+    <block quote>
+* The  <cite> and <blockqoute> elements serve semantic purposes to other computers to inform that the paragraph is quoted.
+* This elements allow custom styling using CSS .
+* The blockquote element can contain any element, including paragraphs, lists, or headlines, but it's crucial to ensure elements are nested within each other in a meaningful manner.
+
+    < in-line quotes >
+* The "<q>" element in HTML is used for inline quotes
+* it automatically provides the appropriate quote marks for different languages. 
+* Inline elements like <q> are used within a line and they wrap around inline phrases of text.
+* Block-level elements like block quotes create separate blocks on the page. 
+
+     <date time>
 Date element
-The datetime attribute in HTML allows us to specify a date or time in a machine-readable format
-The format must be specific, starting with the year, followed by the month and date. Examples include '2025-05-08'
-Time element
-The time element is a crucial element in web pages,can be used to  indicate time in a highly standardized format. 
-It writes the time in a machine-readable version, including 24-hour clock numbers, seconds, and fractions of a second. 
-It also allows specifying the time zone, eg New York City's time zone.
-The datetime attribute allows for the combination of date and time, with options for separating them using a T or space. 
-This format is acceptable in various programming languages and can be used in various combinations, ensuring time is easily understood by computers.
-HTML code
-<code elements>
-To showcase code on a webpage, use the code element with an opening code tag <code> before the snippet and a closing code tag </code>afterward.
-This will display a less than sign  “&lt;" and  "&gt;" will display a greater than sign.
-They help display HTML code on a page instead of executing.
-These are known as HTML entity.
-<bre element>
-The br and pre elements are used to add spaces and line breaks to code without affecting the webpage's content.
- For example, if a poem needs to be displayed properly on a webpage, the br element can be added at the end of each line to indicate where a line break should occur. 
-This simple tag <br> does not have a closing tag.
-<pre element >
-for a  poem that  uses irregular spacing to enhance its meaning we is pre element to display it as it is 
-We add <pre> tag at the beginning of the poem </pre> at the and of the poem. 
-The browser respects spacing, line breaks, and even inserts a random character.
-Pre and code elements are combined to display a code block with proper indentation. 
- CSS code is included, wrapped in a code element to indicate a block of code, and wrapped in a pre element to preserve formatting and spacing.
-HTML Superscripts, Subscripts and Small Text
-Subscripts, superscripts, and small text are used to mark specific content with different meanings. 
-Subscripts are characters set below the text's normal baseline, like the formula for water, while superscripts are characters set above the text's normal baseline.
-Mathematical formulas and footnotes use superscripts, like five squared. 
-To mark subscripts and superscripts in HTML, use <sub> and <sup> elements. 
-For example, H2O can be formatted as H2O, with the sub-element reducing and the sup element increasing and decreasing.
-MathML is a powerful markup language for complex equations on websites.
-However, small text, such as copyright information, can still be included in a footer with little prominence. 
-To convey this, a small element is used.
-CSS can adjust the size of text to be large or small.
-Small is correct for conveying small meaning, like strong for importance. 
-For example, the fine print at the bottom of a page regarding ownership can be displayed as "It is not the main attraction."
-Small, sub, and sup elements are crucial in typography for accurately conveying content's full meaning.
-Capabilities 
+* The datetime attribute in HTML allows us to specify a date or time in a machine-readable format
+* The format must be specific, starting with the year, followed by the month and date. Examples include '2025-05-08'
 
-Troubleshooting and Debugging HTML Code
-We can examine HTML in browser developer tools, such as Firefox, to understand a website's code and performance, providing valuable insights into its functionality.
-<HTML debugging code>
-To access developer tools,opt to go to "tools," then "web developer," and choose "inspector."
-The inspector offers a range of tabs with various tools or controls. 
-Focus on the left pane, which displays HTML and CSS, and the right pane for layout tools, like CSS changes, and font information.
- The left pane displays the browser's DOM, attempting to correct any mistakes made during the process.
+Time element
+* The time element is a crucial element in web pages,can be used to  indicate time in a highly standardized format. 
+* It writes the time in a machine-readable version, including 24-hour clock numbers, seconds, and fractions of a second. 
+* It also allows specifying the time zone, eg New York City's time zone.
+* The datetime attribute allows for the combination of date and time, with options for separating them using a T or space. 
+* This format is acceptable in various programming languages and can be used in various combinations, ensuring time is easily understood by computers.
+
+~HTML code
+    <code elements>
+* To showcase code on a webpage, use the code element with an opening code tag <code> before the snippet and a closing code tag </code>afterward.
+* This will display a less than sign  “&lt;" and  "&gt;" will display a greater than sign.
+* They help display HTML code on a page instead of executing.
+* These are known as HTML entity.
+
+    <bre element>
+* The br and pre elements are used to add spaces and line breaks to code without affecting the webpage's content.
+* For example, if a poem needs to be displayed properly on a webpage, the br element can be added at the end of each line to indicate where a line break should occur. 
+* This simple tag <br> does not have a closing tag.
+
+    <pre element >
+* For a  poem that  uses irregular spacing to enhance its meaning we is pre element to display it as it is 
+* We add <pre> tag at the beginning of the poem </pre> at the and of the poem. 
+* The browser respects spacing, line breaks, and even inserts a random character.
+* Pre and code elements are combined to display a code block with proper indentation. 
+* CSS code is included, wrapped in a code element to indicate a block of code, and wrapped in a pre element to preserve formatting and spacing.
+
+~HTML Superscripts, Subscripts and Small Text
+
+* Subscripts, superscripts, and small text are used to mark specific content with different meanings. 
+* Subscripts are characters set below the text's normal baseline, like the formula for water, while superscripts are characters set above the text's normal baseline.
+* Mathematical formulas and footnotes use superscripts, like five squared. 
+* To mark subscripts and superscripts in HTML, use <sub> and <sup> elements. 
+* For example, H2O can be formatted as H2O, with the sub-element reducing and the sup element increasing and decreasing.
+* MathML is a powerful markup language for complex equations on websites.
+* However, small text, such as copyright information, can still be included in a footer with little prominence. 
+* To convey this, a small element is used.
+* CSS can adjust the size of text to be large or small.
+* Small is correct for conveying small meaning, like strong for importance. 
+* For example, the fine print at the bottom of a page regarding ownership can be displayed as "It is not the main attraction."
+* Small, sub, and sup elements are crucial in typography for accurately conveying content's full meaning.
+
+CAPABILITIES
+
+~Troubleshooting and Debugging HTML Code
+
+* We can examine HTML in browser developer tools, such as Firefox, to understand a website's code and performance, providing valuable insights into its functionality.
+
+   <HTML debugging code>
+* To access developer tools,opt to go to "tools," then "web developer," and choose "inspector."
+* The inspector offers a range of tabs with various tools or controls. 
+* Focus on the left pane, which displays HTML and CSS, and the right pane for layout tools, like CSS changes, and font information.
+* The left pane displays the browser's DOM, attempting to correct any mistakes made during the process.
 
 
 
