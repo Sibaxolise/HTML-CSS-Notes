@@ -224,57 +224,67 @@ CAPABILITIES
 * Symbols like <, >, and & are crucial in HTML.
 * When written with spaces, these symbols appear as regular content. 
 * Content management systems like WordPress and markdown handle these characters, but some users may need to handle them themselves.
-<Coding with
-* HTML entities, such as ampersand, short code, and semicolon, are used to convert characters into specific ones in HTML files. 
-* The W3C provides a reference chart for these entities, and they can be used to type characters not available on a keyboard, such as copyright symbols.
 
-Non-breaking space in text allows lines to break and words to remain intact, while browsers search for suitable spaces with gaps between words for full sentences.
-Non-breaking spaces in HTML allow the browser to maintain a line between two words, ensuring they remain on the same line. 
-They can also be used to create multiple spaces between words, allowing for multiple sentences. 
-These HTML character entities ensure specific characters are displayed on the webpage, allowing for more effective and efficient web design.
-HTML Navigation and Linking
-<HTML links >
-Web links, a concept introduced by computer innovators in the 1980s, have become the norm in online navigation and information sharing. 
-The fascination with hypertext, hypermedia, and hyperlinks persisted for over 20 years, leading to the birth of the web. 
-Although creating a link is simple, its profound impact on computing and the modern world is evident.
-To create a link in HTML, use the A element (anchor) and an href attribute with a URL enclosed in quotes.
- The href stands for Hypertext Reference. 
-Link elements can be inline, wrapped around text, images, or complex elements. 
-Absolute URLs, which point to a precise location on the web, can be included without a trailing slash. 
-The HTTPS part, or Hypertext Transport Protocol, defines web communication rules. 
-HTTPS stands for Secure, and modern browsers automatically add the HTTPS:// part when typing example.com.
- Both HTTP and HTTPS are essential for web security.
-<HTML url pathways >
+          <Coding formatting in HTML>
+     * HTML entities, such as ampersand, short code, and semicolon, are used to convert characters into specific ones in HTML files. 
+     * The W3C provides a reference chart for these entities, and they can be used to type characters not available on a keyboard, such as copyright symbols.
 
-Absolute URLs are only one option for forming links, but relative URLs can be used when linking to something within the same site and domain as the page containing the link. 
-For example, if a website is launched at http://www.awesomedogs.com, all links should point to the local copy of the files, while links on a testing server should direct to the files on that server. 
-Relative URLs are useful for referencing image, video, CSS, JavaScript files, and other file paths.
+          <Using non-breaking spaces>
+* Non-breaking space in text allows lines to break and words to remain intact, while browsers search for suitable spaces with gaps between words for full sentences.
+* Non-breaking spaces in HTML allow the browser to maintain a line between two words, ensuring they remain on the same line. 
+* They can also be used to create multiple spaces between words, allowing for multiple sentences. 
+* These HTML character entities ensure specific characters are displayed on the webpage, allowing for more effective and efficient web design.
 
-To create a URL, understand file organization and file extensions.
-For example, to link to a blog post, use "blog" and "March-9.html". 
-Slashes indicate deeper file structure. 
-To create a relative URL, omit the domain name but include the initial slash at the beginning, starting from the root level. 
-Alternatively, write the path relative to the file.
+HTML NAVIGATION AND LINKING
 
-URLs work by creating relative and absolute links.
- For example, a URL pointing to the logo.gif file in the images folder can be written as /images/logo.gif or../images/logo.gif.
- The ".." followed by a slash indicates going up one level in the directory structure.
- In web development, browsers automatically load an index.html file when given a URL pointing to a folder. 
-This method works for HTML files, not images or CSS.
-Crafting well-structured URLs for web pages is an art, considering user experience and search engine results. 
-Relative URLs are helpful for projects moving between servers, while absolute URLs start from the website's root. 
-Using folders and index.html files creates user-friendly URLs.
-<navigation >
-Navigation 
-To create a site's navigation menu, wrap each link in a URL-enclosed list, wrap it in an unordered list, and wrap it in a nav element.
- Apply CSS styling to make it visually appealing and understandable to screen readers and assistive devices. 
-Assign the role of navigation to the nav element and include an aria label for easy reading.
-Breadcrumbs
-A breadcrumb trail is a menu with links wrapped in an ordered list, providing context when read aloud, and not assigned navigation role.
-Footer links
-Focus on links in the footer of a page, not part of the site's navigation.
- Mark each link as a link and wrap them in a "footer" element, without a nav or unordered list. 
-Consider actions and layer semantic meaning for projects.
+~HTML links 
+* Web links, a concept introduced by computer innovators in the 1980s, have become the norm in online navigation and information sharing. 
+* The fascination with hypertext, hypermedia, and hyperlinks persisted for over 20 years, leading to the birth of the web. 
+* Although creating a link is simple, its profound impact on computing and the modern world is evident.
+
+          <Working with links>
+     * To create a link in HTML, use the A element (anchor) and an href attribute with a URL enclosed in quotes.
+     * The href stands for Hypertext Reference. 
+     * Link elements can be inline, wrapped around text, images, or complex elements. 
+     * Absolute URLs, which point to a precise location on the web, can be included without a trailing slash. 
+     * The HTTPS part, or Hypertext Transport Protocol, defines web communication rules. 
+     * HTTPS stands for Secure, and modern browsers automatically add the HTTPS:// part when typing example.com.
+     * Both HTTP and HTTPS are essential for web security.
+
+~HTML url pathways 
+
+* Absolute URLs are only one option for forming links, but relative URLs can be used when linking to something within the same site and domain as the page containing the link. 
+* For example, if a website is launched at http://www.awesomedogs.com, all links should point to the local copy of the files, while links on a testing server should direct to the files on that server. 
+* Relative URLs are useful for referencing image, video, CSS, JavaScript files, and other file paths.
+
+          <Creating URLs from scratch>
+     * To create a URL, understand file organization and file extensions.
+     * For example, to link to a blog post, use "blog" and "March-9.html". 
+     * Slashes indicate deeper file structure. 
+     * To create a relative URL, omit the domain name but include the initial slash at the beginning, starting from the root level. 
+     * Alternatively, write the path relative to the file.
+
+          <Creating local URLs>
+     * URLs work by creating relative and absolute links.
+     * For example, a URL pointing to the logo.gif file in the images folder can be written as /images/logo.gif or../images/logo.gif.
+     * The ".." followed by a slash indicates going up one level in the directory structure.
+     * In web development, browsers automatically load an index.html file when given a URL pointing to a folder. 
+     * This method works for HTML files, not images or CSS.
+     * Crafting well-structured URLs for web pages is an art, considering user experience and search engine results. 
+     * Relative URLs are helpful for projects moving between servers, while absolute URLs start from the website's root. 
+     * Using folders and index.html files creates user-friendly URLs.
+
+~Navigation 
+          <main navigation>
+     * To create a site's navigation menu, wrap each link in a URL-enclosed list, wrap it in an unordered list, and wrap it in a nav element.
+     * Apply CSS styling to make it visually appealing and understandable to screen readers and assistive devices. 
+     * Assign the role of navigation to the nav element and include an aria label for easy reading.
+          <Breadcrumbs>
+     * A breadcrumb trail is a menu with links wrapped in an ordered list, providing context when read aloud, and not assigned navigation role.
+          <Footer links>
+     * Focus on links in the footer of a page, not part of the site's navigation.
+     * Mark each link as a link and wrap them in a "footer" element, without a nav or unordered list. 
+     * Consider actions and layer semantic meaning for projects.
 
 
 
