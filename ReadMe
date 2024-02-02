@@ -146,6 +146,112 @@ CAPABILITIES
 * The inspector offers a range of tabs with various tools or controls. 
 * Focus on the left pane, which displays HTML and CSS, and the right pane for layout tools, like CSS changes, and font information.
 * The left pane displays the browser's DOM, attempting to correct any mistakes made during the process.
+* The inspector displays the DOM tree, useful for inspecting websites. 
+* Popular browsers like Safari, Chrome, and Edge have similar developer tools with similar indentation and triangles.
+* The problematic code displays an unordered list with four items, incorrectly numbered one, two, three, four. 
+* The developer tools reveal that the browser is adding extra tags during the DOM tree build, causing the incorrect count. 
+* To fix this, add a missing slash before the third item, and use the developer tools to resolve the issue.
+
+HTML attributes 
+
+* HTML is complex and offers additional capabilities through attributes, adding power to any element. 
+* Some attributes are specific to elements like time, while others work with multiple elements, like images and videos, as discussed.
+* The class attribute in HTML is a widely used global attribute that assigns a reusable name to any element, allowing it to be styled using CSS.
+* Class and ID attributes are essential for naming HTML elements and referencing them in other parts of the code stack.
+* They can be used for CSS targeting but are more specific, causing issues.
+* IDs are useful for addressing specific JavaScript elements or targeted links.
+* In a demo, classes and IDs were used to create a table of contents with links to corresponding ID elements.
+* HTML attributes enhance user interaction and provide browser power. 
+* Content editable attributes allow interaction with screen, keyboard, and assistive devices. 
+* The "lang" attribute specifies language of content using a short code, while the "dir" attribute indicates text flow direction.
+* These attributes are Global Attributes and can be used on any HTML element.
+
+ARIA Roles
+
+ARIA Roles enhance the understanding of HTML elements, allowing users to better comprehend their content. 
+However, sometimes these roles must be compromised to ensure accessibility for people with disabilities
+HTML plays a crucial role in human rights.
+ARIA roles ensure website accessibility for assistive technologies like screen readers, braille displays, and magnifiers, ensuring full functionality of complex interfaces in apps.
+The accessibility tree,is like a component of the DOM tree, is essential for assistive devices like screen readers to improve user experience.
+ It treats content as separate text containers, potentially causing poor reading.
+ To improve accessibility, add an ARIA label to HTML and hide individual letters within a div element.
+ This enhances web accessibility and is beneficial for teams working with semantic HTML or complex application interfaces. 
+ARIA Roles provide necessary tools for making a site accessible to everyone.
+
+Formatting HTML 
+
+HTML files have various formatting options, but they generally don't pay much attention to spaces, tabs, or line breaks. 
+However, using elements like <pre>, <code>, or <textarea> or adjusting whitespace handling with CSS can affect extra spaces.
+The browser often ignores the extra space around the paragraph 
+Programmers improve code readability by adding comments explaining its purpose. 
+HTML comments are ignored by browsers. 
+Code editors like Notepad++ display commented code in a grayed-out format, preventing confusion and identifying code comments.
+The debate over uppercase versus lowercase in HTML has evolved over time, with some websites still using all-caps HTML and others using lowercase. 
+Despite this, browser support remains consistent, with lowercase becoming the norm.
+HTML elements' lengths vary due to their creation in the late 80s and early 90s.
+ Initially, HTML was designed to optimize file size due to limited resources. 
+As technology advanced, it prioritized code readability and understandability, leading to newer elements using complete words instead of abbreviations. 
+The element's length also indicates its existence.
+HTML elements typically have an opening and closing tag, with newer elements like video elements having both.
+ Older elements, like image elements, have no closing tag. 
+In the 90s, a slash was added to elements without a closing tag, but it became less important in 2010. 
+Browsers now accept various formatting options.
+
+Unusual Characters
+
+Symbols like <, >, and & are crucial in HTML.
+When written with spaces, these symbols appear as regular content. 
+Content management systems like WordPress and markdown handle these characters, but some users may need to handle them themselves.
+HTML entities, such as ampersand, short code, and semicolon, are used to convert characters into specific ones in HTML files. 
+The W3C provides a reference chart for these entities, and they can be used to type characters not available on a keyboard, such as copyright symbols.
+
+Non-breaking space in text allows lines to break and words to remain intact, while browsers search for suitable spaces with gaps between words for full sentences.
+Non-breaking spaces in HTML allow the browser to maintain a line between two words, ensuring they remain on the same line. 
+They can also be used to create multiple spaces between words, allowing for multiple sentences. 
+These HTML character entities ensure specific characters are displayed on the webpage, allowing for more effective and efficient web design.
+HTML Navigation and Linking
+<HTML links >
+Web links, a concept introduced by computer innovators in the 1980s, have become the norm in online navigation and information sharing. 
+The fascination with hypertext, hypermedia, and hyperlinks persisted for over 20 years, leading to the birth of the web. 
+Although creating a link is simple, its profound impact on computing and the modern world is evident.
+To create a link in HTML, use the A element (anchor) and an href attribute with a URL enclosed in quotes.
+ The href stands for Hypertext Reference. 
+Link elements can be inline, wrapped around text, images, or complex elements. 
+Absolute URLs, which point to a precise location on the web, can be included without a trailing slash. 
+The HTTPS part, or Hypertext Transport Protocol, defines web communication rules. 
+HTTPS stands for Secure, and modern browsers automatically add the HTTPS:// part when typing example.com.
+ Both HTTP and HTTPS are essential for web security.
+<HTML url pathways >
+
+Absolute URLs are only one option for forming links, but relative URLs can be used when linking to something within the same site and domain as the page containing the link. 
+For example, if a website is launched at http://www.awesomedogs.com, all links should point to the local copy of the files, while links on a testing server should direct to the files on that server. 
+Relative URLs are useful for referencing image, video, CSS, JavaScript files, and other file paths.
+
+To create a URL, understand file organization and file extensions.
+For example, to link to a blog post, use "blog" and "March-9.html". 
+Slashes indicate deeper file structure. 
+To create a relative URL, omit the domain name but include the initial slash at the beginning, starting from the root level. 
+Alternatively, write the path relative to the file.
+
+URLs work by creating relative and absolute links.
+ For example, a URL pointing to the logo.gif file in the images folder can be written as /images/logo.gif or../images/logo.gif.
+ The ".." followed by a slash indicates going up one level in the directory structure.
+ In web development, browsers automatically load an index.html file when given a URL pointing to a folder. 
+This method works for HTML files, not images or CSS.
+Crafting well-structured URLs for web pages is an art, considering user experience and search engine results. 
+Relative URLs are helpful for projects moving between servers, while absolute URLs start from the website's root. 
+Using folders and index.html files creates user-friendly URLs.
+<navigation >
+Navigation 
+To create a site's navigation menu, wrap each link in a URL-enclosed list, wrap it in an unordered list, and wrap it in a nav element.
+ Apply CSS styling to make it visually appealing and understandable to screen readers and assistive devices. 
+Assign the role of navigation to the nav element and include an aria label for easy reading.
+Breadcrumbs
+A breadcrumb trail is a menu with links wrapped in an ordered list, providing context when read aloud, and not assigned navigation role.
+Footer links
+Focus on links in the footer of a page, not part of the site's navigation.
+ Mark each link as a link and wrap them in a "footer" element, without a nav or unordered list. 
+Consider actions and layer semantic meaning for projects.
 
 
 
