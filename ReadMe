@@ -141,69 +141,92 @@ CAPABILITIES
 
 * We can examine HTML in browser developer tools, such as Firefox, to understand a website's code and performance, providing valuable insights into its functionality.
 
-   <HTML debugging code>
-* To access developer tools,opt to go to "tools," then "web developer," and choose "inspector."
-* The inspector offers a range of tabs with various tools or controls. 
-* Focus on the left pane, which displays HTML and CSS, and the right pane for layout tools, like CSS changes, and font information.
-* The left pane displays the browser's DOM, attempting to correct any mistakes made during the process.
-* The inspector displays the DOM tree, useful for inspecting websites. 
-* Popular browsers like Safari, Chrome, and Edge have similar developer tools with similar indentation and triangles.
-* The problematic code displays an unordered list with four items, incorrectly numbered one, two, three, four. 
-* The developer tools reveal that the browser is adding extra tags during the DOM tree build, causing the incorrect count. 
-* To fix this, add a missing slash before the third item, and use the developer tools to resolve the issue.
+          <HTML debugging code>
+     * To access developer tools,opt to go to "tools," then "web developer," and choose "inspector."
+          <HTML debugging code>
+     * The inspector offers a range of tabs with various tools or controls. 
+     * Focus on the left pane, which displays HTML and CSS, and the right pane for layout tools, like CSS changes, and font information.
+     * The left pane displays the browser's DOM, attempting to correct any mistakes made during the process.
+     * The inspector displays the DOM tree, useful for inspecting websites. 
 
-HTML attributes 
+          <Using browser DevTools inspector>
+     * Popular browsers like Safari, Chrome, and Edge have similar developer tools with similar indentation and triangles.
+
+          <Reviewing broken code>
+     * The problematic code displays an unordered list with four items, incorrectly numbered one, two, three, four. 
+     * The developer tools reveal that the browser is adding extra tags during the DOM tree build, causing the incorrect count. 
+     * To fix this, add a missing slash before the third item, and use the developer tools to resolve the issue.
+
+~HTML attributes 
 
 * HTML is complex and offers additional capabilities through attributes, adding power to any element. 
 * Some attributes are specific to elements like time, while others work with multiple elements, like images and videos, as discussed.
-* The class attribute in HTML is a widely used global attribute that assigns a reusable name to any element, allowing it to be styled using CSS.
-* Class and ID attributes are essential for naming HTML elements and referencing them in other parts of the code stack.
-* They can be used for CSS targeting but are more specific, causing issues.
-* IDs are useful for addressing specific JavaScript elements or targeted links.
-* In a demo, classes and IDs were used to create a table of contents with links to corresponding ID elements.
-* HTML attributes enhance user interaction and provide browser power. 
-* Content editable attributes allow interaction with screen, keyboard, and assistive devices. 
-* The "lang" attribute specifies language of content using a short code, while the "dir" attribute indicates text flow direction.
-* These attributes are Global Attributes and can be used on any HTML element.
 
-ARIA Roles
+          <Using Global Attributes>
+     * The class attribute in HTML is a widely used global attribute that assigns a reusable name to any element, allowing it to be styled using CSS.
 
-ARIA Roles enhance the understanding of HTML elements, allowing users to better comprehend their content. 
-However, sometimes these roles must be compromised to ensure accessibility for people with disabilities
-HTML plays a crucial role in human rights.
-ARIA roles ensure website accessibility for assistive technologies like screen readers, braille displays, and magnifiers, ensuring full functionality of complex interfaces in apps.
-The accessibility tree,is like a component of the DOM tree, is essential for assistive devices like screen readers to improve user experience.
- It treats content as separate text containers, potentially causing poor reading.
- To improve accessibility, add an ARIA label to HTML and hide individual letters within a div element.
- This enhances web accessibility and is beneficial for teams working with semantic HTML or complex application interfaces. 
-ARIA Roles provide necessary tools for making a site accessible to everyone.
+          <Class and ID A ttributes>
+     * Class and ID attributes are essential for naming HTML elements and referencing them in other parts of the code stack.
+     * They can be used for CSS targeting but are more specific, causing issues.
+     * IDs are useful for addressing specific JavaScript elements or targeted links.
+     * In a demo, classes and IDs were used to create a table of contents with links to corresponding ID elements.
+     * HTML attributes enhance user interaction and provide browser power. 
+     * Content editable attributes allow interaction with screen, keyboard, and assistive devices. 
+     * The "lang" attribute specifies language of content using a short code, while the "dir" attribute indicates text flow direction.
+     * These attributes are Global Attributes and can be used on any HTML element.
 
-Formatting HTML 
+~ARIA Roles
 
-HTML files have various formatting options, but they generally don't pay much attention to spaces, tabs, or line breaks. 
-However, using elements like <pre>, <code>, or <textarea> or adjusting whitespace handling with CSS can affect extra spaces.
-The browser often ignores the extra space around the paragraph 
-Programmers improve code readability by adding comments explaining its purpose. 
-HTML comments are ignored by browsers. 
-Code editors like Notepad++ display commented code in a grayed-out format, preventing confusion and identifying code comments.
-The debate over uppercase versus lowercase in HTML has evolved over time, with some websites still using all-caps HTML and others using lowercase. 
-Despite this, browser support remains consistent, with lowercase becoming the norm.
-HTML elements' lengths vary due to their creation in the late 80s and early 90s.
- Initially, HTML was designed to optimize file size due to limited resources. 
-As technology advanced, it prioritized code readability and understandability, leading to newer elements using complete words instead of abbreviations. 
-The element's length also indicates its existence.
-HTML elements typically have an opening and closing tag, with newer elements like video elements having both.
- Older elements, like image elements, have no closing tag. 
-In the 90s, a slash was added to elements without a closing tag, but it became less important in 2010. 
-Browsers now accept various formatting options.
+* ARIA Roles enhance the understanding of HTML elements, allowing users to better comprehend their content. 
+* However, sometimes these roles must be compromised to ensure accessibility for people with disabilities
+* HTML plays a crucial role in human rights.
 
-Unusual Characters
+          <Web or online Accessibility>
+     * ARIA roles ensure website accessibility for assistive technologies like screen readers, braille displays, and magnifiers, ensuring full functionality of complex interfaces in apps.
 
-Symbols like <, >, and & are crucial in HTML.
-When written with spaces, these symbols appear as regular content. 
-Content management systems like WordPress and markdown handle these characters, but some users may need to handle them themselves.
-HTML entities, such as ampersand, short code, and semicolon, are used to convert characters into specific ones in HTML files. 
-The W3C provides a reference chart for these entities, and they can be used to type characters not available on a keyboard, such as copyright symbols.
+          <Using the browser accessibility tree>
+     * The accessibility tree,is like a component of the DOM tree, is essential for assistive devices like screen readers to improve user experience.
+     * It treats content as separate text containers, potentially causing poor reading.
+     * To improve accessibility, add an ARIA label to HTML and hide individual letters within a div element.
+     * This enhances web accessibility and is beneficial for teams working with semantic HTML or complex application interfaces. 
+     * ARIA Roles provide necessary tools for making a site accessible to everyone.
+
+~Formatting HTML 
+
+          < Working with spaces>
+     * HTML files have various formatting options, but they generally don't pay much attention to spaces, tabs, or line breaks. 
+     * However, using elements like <pre>, <code>, or <textarea> or adjusting whitespace handling with CSS can affect extra spaces.
+     * The browser often ignores the extra space around the paragraph 
+
+          < Working with comments on HTML>
+     * Programmers improve code readability by adding comments explaining its purpose. 
+     * HTML comments are ignored by browsers. 
+     * Code editors like Notepad++ display commented code in a grayed-out format, preventing confusion and identifying code comments.
+
+          < Working with lower and upper case>
+     * The debate over uppercase versus lowercase in HTML has evolved over time, with some websites still using all-caps HTML and others using lowercase. 
+     * Despite this, browser support remains consistent, with lowercase becoming the norm.
+
+          <Working with short and long elements in HTML>
+     * HTML elements' lengths vary due to their creation in the late 80s and early 90s.
+     * Initially, HTML was designed to optimize file size due to limited resources. 
+     * As technology advanced, it prioritized code readability and understandability, leading to newer elements using complete words instead of abbreviations. 
+     * The element's length also indicates its existence.
+
+          <Working with self-closing elements in html>
+     * HTML elements typically have an opening and closing tag, with newer elements like video elements having both.
+     * Older elements, like image elements, have no closing tag. 
+     * In the 90s, a slash was added to elements without a closing tag, but it became less important in 2010. 
+     * Browsers now accept various formatting options.
+
+~Unusual Characters
+
+* Symbols like <, >, and & are crucial in HTML.
+* When written with spaces, these symbols appear as regular content. 
+* Content management systems like WordPress and markdown handle these characters, but some users may need to handle them themselves.
+<Coding with
+* HTML entities, such as ampersand, short code, and semicolon, are used to convert characters into specific ones in HTML files. 
+* The W3C provides a reference chart for these entities, and they can be used to type characters not available on a keyboard, such as copyright symbols.
 
 Non-breaking space in text allows lines to break and words to remain intact, while browsers search for suitable spaces with gaps between words for full sentences.
 Non-breaking spaces in HTML allow the browser to maintain a line between two words, ensuring they remain on the same line. 
