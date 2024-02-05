@@ -289,9 +289,19 @@ HTML NAVIGATION AND LINKING
 WORKING WITH GRAPHICS AND IMAGES
 
 ~Images
+* To add the images to the web we use image element (IMG).
+
           <image elemement>
+     * When we are adding images we make use of the following attributes:
+               _Source attribute(SCR) which tells the browser which image to load.
+               _ALT attribute which contains the description of the image.
+               _Width and height attributes determines the size of the image.
 
           <Working with image element>
+     * By adding the ALT attribute helps the browser know what is in the image.
+     * This attribute is beneficial to those who make use of screen reader.
+     * What yo put in the ALT Attribute can be short and funny.
+     * You can also leave the alt blank.
 
           <Working with blank ALT text>
 
@@ -304,6 +314,17 @@ WORKING WITH GRAPHICS AND IMAGES
 ~Responsive Images
 
           <Responsive image scr set file format>
+
+~Responsive Width
+          <responsive image scr set width>
+
+~Responsive Pictures
+          <responsive image size>
+          <Responsive image and pictures element>
+~Figcation and figures
+          <Working with figures and Figcation element>
+
+
 
 
 
