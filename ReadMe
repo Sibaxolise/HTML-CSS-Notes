@@ -286,6 +286,27 @@ HTML NAVIGATION AND LINKING
      * Mark each link as a link and wrap them in a "footer" element, without a nav or unordered list. 
      * Consider actions and layer semantic meaning for projects.
 
+WORKING WITH GRAPHICS AND IMAGES
+
+~Images
+          <image elemement>
+
+          <Working with image element>
+
+          <Working with blank ALT text>
+
+~Image formats
+
+     GIV
+     SVG
+     JPG
+     PNG
+~Responsive Images
+
+          <Responsive image scr set file format>
+
+
+
 
 
 
