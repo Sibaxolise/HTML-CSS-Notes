@@ -292,37 +292,90 @@ WORKING WITH GRAPHICS AND IMAGES
 * To add the images to the web we use image element (IMG).
 
           <image elemement>
-     * When we are adding images we make use of the following attributes:
-               _Source attribute(SCR) which tells the browser which image to load.
-               _ALT attribute which contains the description of the image.
-               _Width and height attributes determines the size of the image.
+     * Each image should have four attributes: source attribute (SRC), alt attribute (ALT), width and height attribute (Wh), which determine the image file, text description, and size, respectively.
 
           <Working with image element>
-     * By adding the ALT attribute helps the browser know what is in the image.
-     * This attribute is beneficial to those who make use of screen reader.
-     * What yo put in the ALT Attribute can be short and funny.
-     * You can also leave the alt blank.
+     * The image URL is pasted into the source, and the image loads. 
+     * Add an ALT attribute to replace the image when it's not visible. 
+     * Make the ALT text interesting Use humor or poetic language, or leave it blank if there's nothing significant to convey.
 
           <Working with blank ALT text>
+         * The example header features a company name in a big font and their logo as an image.
+          The ALT text, labeled B, is added to prevent the image file name from being read aloud. T
+          he browser needs to know the image's dimensions in pixels, such as 400 pixels wide and 300 pixels tall.
+           The width and height attributes are included to verify these dimensions.
+            The order of attributes within an element can be preferred. The width and height attributes are necessary because the browser determines how to display the image by downloading it, analyzing its characteristics, and using that information to calculate the layout. 
+            This helps prevent page shifting during image loading, improving user experience.
 
 ~Image formats
 
+The image file is crucial for webpages, requiring a web browser-friendly format. New formats aim to balance small file sizes with visually stunning images, ensuring fast downloads and minimizing data usage. Each format uses unique compression techniques to achieve the highest quality with the smallest possible size.
+
      GIV
+     GIFs compress large, color-saturated illustrations but may not be suitable for photographs due to limited color support and potential pixelation, and may cause jagged edges between transparent and solid parts.
+
      SVG
+     SVGs are vector files suitable for logos, icons, and illustrations, with instructions for drawing rather than individual pixels. They can be scaled without loss of quality and can be exported from programs like Illustrator or Sketch.
+
      JPG
+     JPGs are commonly used for compressing images, but web sites should avoid using large, half-compressed JPGs. To further compress, reduce color information and find the right balance between quality and file size.
+
      PNG
+     PNG is a transparent format that outperforms GIF and JPG in compressing images. It's recommended to experiment with different compression options and keep an eye out for future image formats with improved compression capabilities.
+
 ~Responsive Images
+CSS can display images in different sizes for large and small screens, but it can be problematic for users with slow network connections or limited data plans. Reducing image size, reducing colored data, and compressing them can work for smaller screens, but it may result in low-quality images for larger monitors.
 
           <Responsive image scr set file format>
+          HTML allows for the delivery of different image files to screens of different sizes. To load an image, create multiple copies with different resolutions and inform the browser about these options. The device can choose which image to use based on factors like screen density, network connection, and user settings. To handle different image sizes for retina and high DPI screens, add a source set attribute to the HTML code. This attribute lists the images on offer, separated by commas, with each entry including a URL to the file, resolution, and so on. The browser will swap out one version of the image for another based on what it considers best.
 
 ~Responsive Width
           <responsive image scr set width>
+          The src set attribute in HTML specifies the width of each file, not the pixel density. This allows the browser to decide which image to show based on device density and viewport width, potentially causing issues if the chosen image doesn't fit the desired layout. To improve the choice, the sizes attribute in HTML can specify the image to use at different breakpoints, allowing the browser to download the right-sized image for the layout.
 
 ~Responsive Pictures
+The source set in the sizes attribute can offer multiple image files to the browser, allowing it to decide which one to load and display. However, replacing low-resolution files with high-resolution ones is not possible.
+
           <responsive image size>
+          Displaying images differently on small screens, such as tall and narrow on mobile devices and short and wide on desktop computers, or using a different photo altogether.
+
           <Responsive image and pictures element>
+          The picture element is a useful tool for optimizing images on the web. It allows for the display of different screen sizes, allowing for better focus on specific areas. The image element, with its ALT text and URL, ensures compatibility with older browsers. The picture element, wrapped with the image element, provides alternative options using the source element. Two source elements are used: one for mobile images, a cropped version sized at 320 pixels wide, and another for larger screens, a landscape version sized at 600 pixels wide. This allows for optimization for different screen sizes. The browser switches between files based on the viewport size and retina screen, using the larger version only when necessary. This optimization process saves users time and data, as the image files range from 27k to 593k, saving up to three megabytes of data per photo. Overall, using these HTML techniques optimizes images on the web while delivering beautiful, scalable images.
+
 ~Figcation and figures
           <Working with figures and Figcation element>
+          To create a visually appealing dog image, use the figcaption element to wrap the text and designate it as a caption. Place the image and caption together in a figure element, providing more information about the content and connecting it to search engines and AI. These elements are useful for interactive graphics and concept demonstrations.
+
+HTML WORKING WITH MEDIA
+~Working With Media
+          <Working With Audio>
+          The audio element, unlike the image element, features an opening and closing tag for modernity and flexibility, and uses a source attribute to provide the audio file URL.
+
+          <Audio element>
+          Link to MP3 file for now, but browser controls like play button, timeline, and volume control are optional, not yet useful.
+
+          <Working with the audio element>
+     The audio element in HTML can be created using JavaScript and the HTML media element API. It allows users to play, pause, adjust volume, view time, and navigate through the timeline. Other attributes can be used with the audio element, such as "loop" and "Autoplay". The audio element has an opening and closing tag to specify multiple audio files, similar to the picture element. This can be helpful if a new file format is not supported in all browsers while providing a fallback for older ones. There is no second audio format recommended at the moment, but understanding syntax for supporting multiple formats is crucial. Creating multiple files and listing them in separate source elements ensures compatibility with different browsers.
+
+~Working With Video
+The web has revolutionized the way we connect and share content, including movies, TV shows, and teaching. The HTML video element, with its opening and closing tags, allows for easy video display and automatic player creation.
+          <Working with the video element>
+     Video encoding is a crucial aspect of internet video transmission, as it compresses large data into smaller packages. Various codecs have been developed over the years, including H.264, which is proprietary and not open source. The WebM versus AV1 debate remains uncertain, with AV1 potentially being the superior codec and free of royalty charges. HTML allows for the simultaneous use of multiple codecs, including H.264, WebM, and AV1. However, HTML lacks a built-in mechanism for sending different video sizes based on network conditions. Major streaming platforms like Netflix, Hulu, HBO, YouTube, and Vimeo use adaptive bitrate streaming to ensure seamless switching between different resolutions. Websites often use embed codes from video hosting services to simplify the process and leverage the capabilities provided by these services. This choice is often made to leverage the capabilities provided by these services.
+
+~Working With Captions and Subtitles
+Audio and video content on websites can be accessible to everyone, but not everyone can always hear or understand it due to factors like hearing loss, intermittent hearing, or difficulty with accents or fast pace. The web provides multiple ways to provide content simultaneously.
+
+          <Working with the video captions and the track element>
+     To add captions to a video, use the track element and link it to a text file. This allows viewers to toggle captions on and off or switch between different subtitle options. The web video text tracks file format, ibvtt, is used. Insert a track element within the video element, specifying the file, kind attribute, label attribute, source lang attribute, and default attribute. A captioning icon appears, allowing users to turn captions off, enable automatic captioning, or select English captions. Other options include "descriptions" for visual elements and "chapters" for different sections. Platforms like YouTube and Vimeo allow uploading caption files, making content more accessible and increasing audience base. Captions and subtitles are powerful and often required by law, making content more accessible and boosting traffic.
+
+~Embedding Media via Iframes
+Embedding is the process of placing content from one site into another's page, allowing for a variety of content to be displayed. It's common to embed complex content from a service that handles technical aspects, reducing the need for complex website development. However, HTML knowledge is required for this process.
+
+          <Getting an embed link from Youtube>
+     YouTube engineers have simplified HTML, but understanding HTML can help recognize iframe elements with adjustable attributes like height and width. However, security issues must be considered when importing code from other websites.
+
+          <Working with the iFrame element>
+     Content management systems like WordPress and Drupal may restrict embed codes from other websites. Consult an expert for YouTube videos. Consider security for iframe elements when building a website. Allow only one iframe if multiple users add content, but not all if only one user posts videos.
 
 
 
