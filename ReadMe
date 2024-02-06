@@ -322,30 +322,49 @@ WORKING WITH GRAPHICS AND IMAGES
 * They can be scaled without loss of quality and can be exported from programs like Illustrator or Sketch.
 
      JPG
-* JPGs are commonly used for compressing images, but web sites should avoid using large, half-compressed JPGs. 
-* To further compress, reduce color information and find the right balance between quality and file size.
+* JPGs are commonly used for compressing images and should be resized when placed on the web.
+* The web sites should avoid using large, half-compressed JPGs cause they slow the loading speed. 
+* To further compress JPG, need reduce color information and find the right balance between quality and file size.
 
      PNG
-     PNG is a transparent format that outperforms GIF and JPG in compressing images. It's recommended to experiment with different compression options and keep an eye out for future image formats with improved compression capabilities.
+* PNG is a transparent format that outperforms GIF and JPG in compressing images. 
+* It's recommended to experiment with different compression options and keep an eye out for future image formats with improved compression capabilities.
 
 ~Responsive Images
-CSS can display images in different sizes for large and small screens, but it can be problematic for users with slow network connections or limited data plans. Reducing image size, reducing colored data, and compressing them can work for smaller screens, but it may result in low-quality images for larger monitors.
+* CSS can display images in different sizes for large and small screens, but it can be problematic for users with slow network connections or limited data plans.
+* Reducing image size, reducing colored data, and compressing them can work for smaller screens, but it may result in low-quality images for larger monitors.
 
           <Responsive image scr set file format>
-          HTML allows for the delivery of different image files to screens of different sizes. To load an image, create multiple copies with different resolutions and inform the browser about these options. The device can choose which image to use based on factors like screen density, network connection, and user settings. To handle different image sizes for retina and high DPI screens, add a source set attribute to the HTML code. This attribute lists the images on offer, separated by commas, with each entry including a URL to the file, resolution, and so on. The browser will swap out one version of the image for another based on what it considers best.
+     * HTML allows for the delivery of different image files to screens of different sizes.
+     * To load an image, create multiple copies with different resolutions and inform the browser about these options. 
+     * The device can choose which image to use based on factors like screen density, network connection, and user settings. 
+     * To handle different image sizes for retina and high DPI screens, add a source set attribute to the HTML code.
+     * This attribute lists the images on offer, separated by commas, with each entry including a URL to the file, resolution, and so on. 
+     * The browser will swap out one version of the image for another based on what it considers best.
 
 ~Responsive Width
+
           <responsive image scr set width>
-          The src set attribute in HTML specifies the width of each file, not the pixel density. This allows the browser to decide which image to show based on device density and viewport width, potentially causing issues if the chosen image doesn't fit the desired layout. To improve the choice, the sizes attribute in HTML can specify the image to use at different breakpoints, allowing the browser to download the right-sized image for the layout.
+     * The src set attribute in HTML specifies the width of each file, not the pixel density. 
+     * This allows the browser to decide which image to show based on device density and viewport width, potentially causing issues if the chosen image doesn't fit the desired layout. 
+     * To improve the choice, the sizes attribute in HTML can specify the image to use at different breakpoints, allowing the browser to download the right-sized image for the layout.
 
 ~Responsive Pictures
-The source set in the sizes attribute can offer multiple image files to the browser, allowing it to decide which one to load and display. However, replacing low-resolution files with high-resolution ones is not possible.
+* The source set in the sizes attribute can offer multiple image files to the browser, allowing it to decide which one to load and display. 
+* However, replacing low-resolution files with high-resolution ones is not possible.
 
           <responsive image size>
-          Displaying images differently on small screens, such as tall and narrow on mobile devices and short and wide on desktop computers, or using a different photo altogether.
+     * Displaying images differently on small screens, such as tall and narrow on mobile devices and short and wide on desktop computers, or using a different photo altogether.
 
           <Responsive image and pictures element>
-          The picture element is a useful tool for optimizing images on the web. It allows for the display of different screen sizes, allowing for better focus on specific areas. The image element, with its ALT text and URL, ensures compatibility with older browsers. The picture element, wrapped with the image element, provides alternative options using the source element. Two source elements are used: one for mobile images, a cropped version sized at 320 pixels wide, and another for larger screens, a landscape version sized at 600 pixels wide. This allows for optimization for different screen sizes. The browser switches between files based on the viewport size and retina screen, using the larger version only when necessary. This optimization process saves users time and data, as the image files range from 27k to 593k, saving up to three megabytes of data per photo. Overall, using these HTML techniques optimizes images on the web while delivering beautiful, scalable images.
+     * The picture element is a useful tool for optimizing images on the web. 
+     * It allows for the display of different screen sizes, allowing for better focus on specific areas.
+     * The image element, with its ALT text and URL, ensures compatibility with older browsers. 
+     * The picture element, wrapped with the image element, provides alternative options using the source element. 
+     * Two source elements are used: one for mobile images, a cropped version sized at 320 pixels wide, and another for larger screens, a landscape version sized at 600 pixels wide. 
+     * This allows for optimization for different screen sizes. The browser switches between files based on the viewport size and retina screen, using the larger version only when necessary. 
+     * This optimization process saves users time and data, as the image files range from 27k to 593k, saving up to three megabytes of data per photo. 
+     * Overall, using these HTML techniques optimizes images on the web while delivering beautiful, scalable images.
 
 ~Figcation and figures
           <Working with figures and Figcation element>
