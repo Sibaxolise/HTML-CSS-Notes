@@ -296,29 +296,34 @@ WORKING WITH GRAPHICS AND IMAGES
 
           <Working with image element>
      * The image URL is pasted into the source, and the image loads. 
-     * Add an ALT attribute to replace the image when it's not visible. 
-     * Make the ALT text interesting Use humor or poetic language, or leave it blank if there's nothing significant to convey.
+     * ALT attribute is added to replace the image when it's not visible. 
+     * The ALT text should be interesting, use humor or poetic language, or leave it blank if there's nothing significant to convey.
 
           <Working with blank ALT text>
-         * The example header features a company name in a big font and their logo as an image.
-          The ALT text, labeled B, is added to prevent the image file name from being read aloud. T
-          he browser needs to know the image's dimensions in pixels, such as 400 pixels wide and 300 pixels tall.
-           The width and height attributes are included to verify these dimensions.
-            The order of attributes within an element can be preferred. The width and height attributes are necessary because the browser determines how to display the image by downloading it, analyzing its characteristics, and using that information to calculate the layout. 
-            This helps prevent page shifting during image loading, improving user experience.
+     * The example were a company name  and logo have repeative words.
+     * The ALT text is added and left blank to prevent the image file name from being read aloud. 
+     * The browser needs to know the image's dimensions in pixels, such as 400 pixels wide and 300 pixels tall.
+     * The width and height attributes are included to verify these dimensions.
+     * You can place the attributes within an element in any order you like  . 
+     * The width and height attributes are necessary because the browser determines how to display the image by downloading it, analyzing its characteristics, and using that information to calculate the layout. 
+     * This helps prevent page shifting during image loading, improving user experience.
 
 ~Image formats
 
-The image file is crucial for webpages, requiring a web browser-friendly format. New formats aim to balance small file sizes with visually stunning images, ensuring fast downloads and minimizing data usage. Each format uses unique compression techniques to achieve the highest quality with the smallest possible size.
+* The image file is crucial for webpages, requiring a web browser-friendly format. 
+* New formats aim to balance small file sizes with visually stunning images, ensuring fast downloads and minimizing data usage. 
+* Each format uses unique compression techniques to achieve the highest quality with the smallest possible size.
 
      GIV
-     GIFs compress large, color-saturated illustrations but may not be suitable for photographs due to limited color support and potential pixelation, and may cause jagged edges between transparent and solid parts.
+* GIFs compress large, color-saturated illustrations but may not be suitable for photographs due to limited color support and potential pixelation, and may cause jagged edges between transparent and solid parts.
 
      SVG
-     SVGs are vector files suitable for logos, icons, and illustrations, with instructions for drawing rather than individual pixels. They can be scaled without loss of quality and can be exported from programs like Illustrator or Sketch.
+* SVGs are vector files suitable for logos, icons, and illustrations, with instructions for drawing rather than individual pixels. 
+* They can be scaled without loss of quality and can be exported from programs like Illustrator or Sketch.
 
      JPG
-     JPGs are commonly used for compressing images, but web sites should avoid using large, half-compressed JPGs. To further compress, reduce color information and find the right balance between quality and file size.
+* JPGs are commonly used for compressing images, but web sites should avoid using large, half-compressed JPGs. 
+* To further compress, reduce color information and find the right balance between quality and file size.
 
      PNG
      PNG is a transparent format that outperforms GIF and JPG in compressing images. It's recommended to experiment with different compression options and keep an eye out for future image formats with improved compression capabilities.
