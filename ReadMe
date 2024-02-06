@@ -351,10 +351,9 @@ WORKING WITH GRAPHICS AND IMAGES
 
 ~Responsive Pictures
 * The source set in the sizes attribute can offer multiple image files to the browser, allowing it to decide which one to load and display. 
-* However, replacing low-resolution files with high-resolution ones is not possible.
 
           <responsive image size>
-     * Displaying images differently on small screens, such as tall and narrow on mobile devices and short and wide on desktop computers, or using a different photo altogether.
+     * Is used for displaying images differently on small screens, such as tall and narrow on mobile devices and short and wide on desktop computers, or using a different photo altogether.
 
           <Responsive image and pictures element>
      * The picture element is a useful tool for optimizing images on the web. 
@@ -367,39 +366,73 @@ WORKING WITH GRAPHICS AND IMAGES
      * Overall, using these HTML techniques optimizes images on the web while delivering beautiful, scalable images.
 
 ~Figcation and figures
+
           <Working with figures and Figcation element>
-          To create a visually appealing dog image, use the figcaption element to wrap the text and designate it as a caption. Place the image and caption together in a figure element, providing more information about the content and connecting it to search engines and AI. These elements are useful for interactive graphics and concept demonstrations.
+     * To create a visually appealing image, use the figcaption element to wrap the text and designate it as a caption. 
+     * Place the image and caption together in a figure element(<figure> </figure>), this provides more information about the content and also shows the seach engines that they are connected. 
+     * These elements are useful for interactive graphics and concept demonstrations.
 
 HTML WORKING WITH MEDIA
+
 ~Working With Media
+
           <Working With Audio>
-          The audio element, unlike the image element, features an opening and closing tag for modernity and flexibility, and uses a source attribute to provide the audio file URL.
+     * The audio element is not like the image element.
+     * This element has an opening and closing tag for modernity and flexibility, and uses a source attribute to provide the audio file URL.
 
           <Audio element>
-          Link to MP3 file for now, but browser controls like play button, timeline, and volume control are optional, not yet useful.
+     * The are many audio format that we can use and MP3 is one of the them
+     * To make use of browser controls like play button, timeline, and volume control, we have to add the control attribute on the audio element.
 
           <Working with the audio element>
-     The audio element in HTML can be created using JavaScript and the HTML media element API. It allows users to play, pause, adjust volume, view time, and navigate through the timeline. Other attributes can be used with the audio element, such as "loop" and "Autoplay". The audio element has an opening and closing tag to specify multiple audio files, similar to the picture element. This can be helpful if a new file format is not supported in all browsers while providing a fallback for older ones. There is no second audio format recommended at the moment, but understanding syntax for supporting multiple formats is crucial. Creating multiple files and listing them in separate source elements ensures compatibility with different browsers.
+     * The audio element in HTML can be created using JavaScript and the HTML media element API. 
+     * Control attribute allows users to play, pause, adjust volume, view time, and navigate through the timeline.
+     * The are other attributes that can be used with the audio element, such as "loop" and "Autoplay". 
+     * The audio element has an opening and closing tag to specify multiple audio files, similar to the picture element. 
+     * This can be helpful if a new file format is not supported in all browsers while providing a fallback for older ones. 
+     * Creating multiple files and listing them in separate source elements ensures compatibility with different browsers.
 
 ~Working With Video
-The web has revolutionized the way we connect and share content, including movies, TV shows, and teaching. The HTML video element, with its opening and closing tags, allows for easy video display and automatic player creation.
+* The web has revolutionized the way we connect and share content, including movies, TV shows, and teaching . 
+* The HTML video element, with its opening '<video>' and closing tags'</video>', allows for easy video display on web pages and automatic player creation.
+
           <Working with the video element>
-     Video encoding is a crucial aspect of internet video transmission, as it compresses large data into smaller packages. Various codecs have been developed over the years, including H.264, which is proprietary and not open source. The WebM versus AV1 debate remains uncertain, with AV1 potentially being the superior codec and free of royalty charges. HTML allows for the simultaneous use of multiple codecs, including H.264, WebM, and AV1. However, HTML lacks a built-in mechanism for sending different video sizes based on network conditions. Major streaming platforms like Netflix, Hulu, HBO, YouTube, and Vimeo use adaptive bitrate streaming to ensure seamless switching between different resolutions. Websites often use embed codes from video hosting services to simplify the process and leverage the capabilities provided by these services. This choice is often made to leverage the capabilities provided by these services.
+     * Video encoding is a crucial aspect of internet video transmission, as it compresses large data into smaller packages. 
+     * Various codecs have been developed over the years, including H.264, which is proprietary and not open source. 
+     * The WebM versus AV1 debate remains uncertain, with AV1 potentially being the superior codec and free of royalty charges. 
+     * HTML allows for the simultaneous use of multiple codecs, including H.264, WebM, and AV1. 
+     * However, HTML lacks a built-in mechanism for sending different video sizes based on network conditions.
+     * Major streaming platforms like Netflix, Hulu, HBO, YouTube, and Vimeo use adaptive bitrate streaming to ensure seamless switching between different resolutions. 
+     * Websites often use embed codes from video hosting services to simplify the process and leverage the capabilities provided by these services. 
+     * This choice is often made to leverage the capabilities provided by these services.
 
 ~Working With Captions and Subtitles
-Audio and video content on websites can be accessible to everyone, but not everyone can always hear or understand it due to factors like hearing loss, intermittent hearing, or difficulty with accents or fast pace. The web provides multiple ways to provide content simultaneously.
+* Audio and video content on websites can be accessible to everyone, but not everyone can always hear or understand it due to factors like hearing loss or difficulty with accents or fast pace. 
+* The web provides multiple ways to provide content simultaneously.
 
           <Working with the video captions and the track element>
-     To add captions to a video, use the track element and link it to a text file. This allows viewers to toggle captions on and off or switch between different subtitle options. The web video text tracks file format, ibvtt, is used. Insert a track element within the video element, specifying the file, kind attribute, label attribute, source lang attribute, and default attribute. A captioning icon appears, allowing users to turn captions off, enable automatic captioning, or select English captions. Other options include "descriptions" for visual elements and "chapters" for different sections. Platforms like YouTube and Vimeo allow uploading caption files, making content more accessible and increasing audience base. Captions and subtitles are powerful and often required by law, making content more accessible and boosting traffic.
+     * To add captions to a video, use the track element and link it to a text file. 
+     * This allows viewers to toggle captions on and off or switch between different subtitle options. 
+     * The web video uses this text tracks file format (ibvtt). 
+     * Can dispalay captions on the video by insertig a track element within the video element, specifying the file, kind attribute, label attribute, source lang attribute, and default attribute . 
+     * A captioning icon appears, allowing users to turn captions off, enable automatic captioning, or select English captions.
+     * Other options include "descriptions" for visual elements and "chapters" for different sections.
+     * Platforms like YouTube and Vimeo allow uploading caption files, making content more accessible and increasing audience base. 
+     * Captions and subtitles are powerful and often required by law, making content more accessible and boosting traffic.
 
 ~Embedding Media via Iframes
-Embedding is the process of placing content from one site into another's page, allowing for a variety of content to be displayed. It's common to embed complex content from a service that handles technical aspects, reducing the need for complex website development. However, HTML knowledge is required for this process.
+* Embedding is the process of placing content from one site into another's page, allowing for a variety of content to be displayed. 
+* It's common to embed complex content from a service that handles technical aspects, reducing the need for complex website development. 
+* However, HTML knowledge is required for this process.
 
           <Getting an embed link from Youtube>
-     YouTube engineers have simplified HTML, but understanding HTML can help recognize iframe elements with adjustable attributes like height and width. However, security issues must be considered when importing code from other websites.
+     * YouTube engineers have simplified HTML, but understanding HTML can help recognize iframe elements with adjustable attributes like height and width.
+     * However, security issues must be considered when importing code from other websites.
 
           <Working with the iFrame element>
-     Content management systems like WordPress and Drupal may restrict embed codes from other websites. Consult an expert for YouTube videos. Consider security for iframe elements when building a website. Allow only one iframe if multiple users add content, but not all if only one user posts videos.
+     * Content management systems like WordPress and Drupal may restrict embed codes from other websites. 
+     * Consider security for iframe elements when building a website. 
+     * Allow only one iframe if multiple users add content, but not all if only one user posts videos.
 
 
 
