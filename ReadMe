@@ -434,6 +434,28 @@ HTML WORKING WITH MEDIA
      * Consider security for iframe elements when building a website. 
      * Allow only one iframe if multiple users add content, but not all if only one user posts videos.
 
+~HTML Content Identification
+
+         <HTML Language Support >
+
+* The internet supports various languages, and HTML tools help indicate content language. 
+* Search engines understand, spell checkers provide dictionaries, and computers understand content language for accurate pronunciation.
+
+       lANG ATTRIBUTE
+* The lang attribute specifies the language of a webpage, typically on the HTML element that wraps all other elements. 
+* It is essential for spell checkers and other purposes. 
+* The lang attribute can indicate regional versions of a language or other qualities like the writing system used. 
+* If a webpage has multiple languages, specify the language for each part of the content using the lang attribute on any element.
+* The dir attribute indicates the content's direction, which can be applied to any element.
+
+The Meta Attribute
+
+* Set the charset for your project, which is the set of characters or alphabet used by each language. 
+* Previously, computer character sets were limited, mainly focused on the Latin alphabet. *Today, Unicode, particularly UTF-8, is widely used, encoding content for a wide range of characters, scripts, and emojis. 
+* To specify the charset in HTML, include a meta charset tag equal to UTF-8 within the head element on every page. 
+* This contributes to a more inclusive web future.
+
+
 
 
 
