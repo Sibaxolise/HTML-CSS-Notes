@@ -455,6 +455,22 @@ The Meta Attribute
 * To specify the charset in HTML, include a meta charset tag equal to UTF-8 within the head element on every page. 
 * This contributes to a more inclusive web future.
 
+~HTML Generic Elements, Div and Span
+*HTML elements like div and span are useful when an element doesn't exist, such as grouping or highlighting phrases or targeting specific parts of the DOM with CSS or Javascript, even if there's no real meaning behind it.
+
+    <The div and span elements>
+* Before HTML5, divs and spans were used extensively for creating sections and sidebars.
+* However, excessive use of these elements is not recommended as it negatively affects users. 
+* It is recommended to use appropriate HTML elements for specific purposes. 
+* Generic elements like divs and spans are needed when necessary, as they do not function until CSS or Javascript is applied.
+
+     <Working with Div and Span Elements>
+* A simple article with a headline and four paragraphs can be grouped using CSS to add a background color to the paragraphs. 
+* To target a specific phrase, use the inline element span. Both div and span can use global attributes like class, id, lang, and aria roles. 
+* They are useful last resort options when other options are unavailable.
+
+~
+
 
 
 
