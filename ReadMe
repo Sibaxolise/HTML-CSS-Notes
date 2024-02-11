@@ -279,8 +279,10 @@ HTML NAVIGATION AND LINKING
      * To create a site's navigation menu, wrap each link in a URL-enclosed list, wrap it in an unordered list, and wrap it in a nav element.
      * Apply CSS styling to make it visually appealing and understandable to screen readers and assistive devices. 
      * Assign the role of navigation to the nav element and include an aria label for easy reading.
+
           <Breadcrumbs>
      * A breadcrumb trail is a menu with links wrapped in an ordered list, providing context when read aloud, and not assigned navigation role.
+
           <Footer links>
      * Focus on links in the footer of a page, not part of the site's navigation.
      * Mark each link as a link and wrap them in a "footer" element, without a nav or unordered list. 
@@ -437,56 +439,54 @@ HTML WORKING WITH MEDIA
 ~HTML Content Identification
 
          <HTML Language Support >
+     * The internet supports various languages, and HTML tools help indicate content language. 
+     * Search engines understand, spell checkers provide dictionaries, and computers understand content language for accurate pronunciation.
 
-* The internet supports various languages, and HTML tools help indicate content language. 
-* Search engines understand, spell checkers provide dictionaries, and computers understand content language for accurate pronunciation.
+            lANG ATTRIBUTE
+     * The lang attribute specifies the language of a webpage, typically on the HTML element that wraps all other elements. 
+     * It is essential for spell checkers and other purposes. 
+     * The lang attribute can indicate regional versions of a language or other qualities like the writing system used. 
+     * If a webpage has multiple languages, specify the language for each part of the content using the lang attribute on any element.
+     * The dir attribute indicates the content's direction, which can be applied to any element.
 
-       lANG ATTRIBUTE
-* The lang attribute specifies the language of a webpage, typically on the HTML element that wraps all other elements. 
-* It is essential for spell checkers and other purposes. 
-* The lang attribute can indicate regional versions of a language or other qualities like the writing system used. 
-* If a webpage has multiple languages, specify the language for each part of the content using the lang attribute on any element.
-* The dir attribute indicates the content's direction, which can be applied to any element.
-
-The Meta Attribute
-
-* Set the charset for your project, which is the set of characters or alphabet used by each language. 
-* Previously, computer character sets were limited, mainly focused on the Latin alphabet. *Today, Unicode, particularly UTF-8, is widely used, encoding content for a wide range of characters, scripts, and emojis. 
-* To specify the charset in HTML, include a meta charset tag equal to UTF-8 within the head element on every page. 
-* This contributes to a more inclusive web future.
+          The Meta Attribute
+     * Set the charset for your project, which is the set of characters or alphabet used by each language. 
+     * Previously, computer character sets were limited, mainly focused on the Latin alphabet. *Today, Unicode, particularly UTF-8, is widely used, encoding content for a wide range of characters, scripts, and emojis. 
+     * To specify the charset in HTML, include a meta charset tag equal to UTF-8 within the head element on every page. 
+     * This contributes to a more inclusive web future.
 
 ~HTML Generic Elements, Div and Span
 *HTML elements like div and span are useful when an element doesn't exist, such as grouping or highlighting phrases or targeting specific parts of the DOM with CSS or Javascript, even if there's no real meaning behind it.
 
-    <The div and span elements>
-* Before HTML5, divs and spans were used extensively for creating sections and sidebars.
-* However, excessive use of these elements is not recommended as it negatively affects users. 
-* It is recommended to use appropriate HTML elements for specific purposes. 
-* Generic elements like divs and spans are needed when necessary, as they do not function until CSS or Javascript is applied.
+         <The div and span elements>
+     * Before HTML5, divs and spans were used extensively for creating sections and sidebars.
+     * However, excessive use of these elements is not recommended as it negatively affects users. 
+     * It is recommended to use appropriate HTML elements for specific purposes. 
+     * Generic elements like divs and spans are needed when necessary, as they do not function until CSS or Javascript is applied.
 
-     <Working with Div and Span Elements>
-* A simple article with a headline and four paragraphs can be grouped using CSS to add a background color to the paragraphs. 
-* To target a specific phrase, use the inline element span. Both div and span can use global attributes like class, id, lang, and aria roles. 
-* They are useful last resort options when other options are unavailable.
+          <Working with Div and Span Elements>
+     * A simple article with a headline and four paragraphs can be grouped using CSS to add a background color to the paragraphs. 
+     * To target a specific phrase, use the inline element span. Both div and span can use global attributes like class, id, lang, and aria roles. 
+     * They are useful last resort options when other options are unavailable.
 
 ~HTML Integration
- <HTML Page>
-* HTML, including elements, attributes, roles, and tools, is crucial for markup on websites and web apps. 
-* It plays a significant role in explaining content and is sent back by the web server when a URL is entered, triggering a web browser or view.
+           <HTML Page>
+     * HTML, including elements, attributes, roles, and tools, is crucial for markup on websites and web apps. 
+     * It plays a significant role in explaining content and is sent back by the web server when a URL is entered, triggering a web browser or view.
 
-   <Standard HTML page head>
-* In the early days of the web, all necessary files for a webpage were contained in a single HTML file. 
-* Today, the web process involves users visiting a URL, requesting an HTML file, and the server returning a single file.
-* The browser reads the file and follows its instructions, requesting additional files as needed.
-* This process ensures that a web page is generated quickly and efficiently, allowing users to access and interact with the content.
+        <Standard HTML page head>
+     * In the early days of the web, all necessary files for a webpage were contained in a single HTML file. 
+     * Today, the web process involves users visiting a URL, requesting an HTML file, and the server returning a single file.
+     * The browser reads the file and follows its instructions, requesting additional files as needed.
+     * This process ensures that a web page is generated quickly and efficiently, allowing users to access and interact with the content.
 
-   <Structure of the whole HTML file>
-* The HTML file structure is crucial for web pages. 
-* It begins with a doctype statement, indicating the era of the file. 
-* The HTML element, containing all content, is enclosed within an HTML element.
-* The page's language and content flow direction are specified at the beginning. 
-* The HTML element consists of a head and body, with the head containing metadata for the browser, and the body for content.
-* These elements are the essential building blocks of every web page.
+          <Structure of the whole HTML file>
+     * The HTML file structure is crucial for web pages. 
+     * It begins with a doctype statement, indicating the era of the file. 
+     * The HTML element, containing all content, is enclosed within an HTML element.
+     * The page's language and content flow direction are specified at the beginning. 
+     * The HTML element consists of a head and body, with the head containing metadata for the browser, and the body for content.
+     * These elements are the essential building blocks of every web page.
 
 ~Document Head
 *The meta element in the head of a webpage provides crucial information for the browser, such as the character set. 
@@ -509,29 +509,106 @@ The Meta Attribute
      * The script tag is a JavaScript file loader in an HTML document's head, serving as a central hub for connecting components, loading assets, and sharing page information with other sites, ensuring a smooth start to the page.
 
 ~Content Structuring
-       <Main>
+            <Main>
      * The main element is a single element used per webpage to indicate the location of the main content to the browser.
 
-     < Header>
+          <Header>
      * Header and footer elements indicate page headers and footer areas, respectively, where file metadata lives and is not displayed to users, and are typically found at the top of web pages.
 
-     < Footer>
+          <Footer>
      * An article begins with a title, subtitle, author's name, and publication date, and ends with a footer containing links, copyright information, and company details. 
-     * The article element wraps around any content unit, representing a standalone unit of content.
 
-     < Article>
+          <Article>
+      * The article element wraps around any content unit, representing a standalone unit of content.
+
+          <Section>
      * The section element is utilized to mark content sections, such as long essays with subheadings, and to divide different topic zones on a website, starting with a headline.
-
-     <Section>
 
           <Aside>
      * The aside element is used for sidebar information or additional details in articles, and advertisements. 
      * Its semantic meaning is crucial, as it helps transfer design meaning from the design to the content.
 
+~When it all Comes Together
+* Web pages consist of hundreds of nested elements, each conveying meaning and playing off the other. 
+* To mark up a page, explore the web, find similar sites, and use developer tools. 
+* The correct way to combine HTML elements depends on the content and page purpose.
+* Structuring HTML is an art, with creative freedom and the goal of representing human communication in code.
 
+~Working with Forms and Interactive Elements
+           <Form Fundamentals>
+     * Form fields are crucial for web tasks like logging, purchasing, and content addition.
+     * Using semantic form elements in HTML allows for browser-built functionality and compatibility with all devices and hardware. 
+     * For example, a simple form for signing up for an email newsletter requires two fields: name and email address.
 
+          <Working with forms>
+     * To create an HTML form, start with the form element, which informs the browser about the form's presence using opening and closing tags.
+     * In the newsletter signup form, use the label element to turn field names into labels. 
+     * The input element allows users to input their names and email, without a closing tag. 
+     * A button is needed for submission, and the form needs to be connected to a backend. 
+     * To make it accessible, add a "for" attribute to the label that matches the input's "id" attribute or wrap the input with the label.
+     * Test the connection by clicking on the label to ensure focus jumps to the corresponding input.
 
+~More Form Functions
+* The task involves creating a form for email newsletter subscription, requiring users to input their name and email address, but the input elements currently only accept text, allowing users to type anything.
 
+          < More form functions>
+     * To ensure a user-friendly form, add the type attribute to each input, such as the name field, email field, and submit button.
+     * The default is text, and if left off, the browser will assume it is text.
+     * The email field should be filled with an email address, and the browser will verify the data entered.
+     * The submit button should be activated when the user returns to the keyboard. 
+     * A required attribute should be added to make the email feel required.
+     * A placeholder or default value can be used to pre-populate the field with a suggested text, which should appear light gray by default and disappear when clicked.
+     * A value attribute can be used to pre-populate the field with real content, such as user's name, email, shipping address, or credit card numbers. 
+     * By learning about and using HTML, you can make your form clear and frictionless for all users. 
+     * This will help you create more effective and user-friendly forms.
+
+~Other Form Element Types
+* Forms can be aesthetically pleasing using CSS and semantic HTML elements, enhancing their functionality and allowing for the collection of various data types.
+
+          <Other form element types>
+     * The text describes a simple email form with similar elements and a button, but with improved styling. 
+     * It adds three additional fields: password, search, and phone number. 
+     * The password field is set to password, search to search, and phone number to tel. 
+     * The browser warns users not to use this field on unsecured sites, but some browsers may display an integrated password manager.
+     * The search field has a different appearance and keyboard, and the phone number field prompts a telephone pad for the keyboard. 
+     * The text area element is used to collect paragraphs or entire articles of text. 
+     * The form also includes three input types: date, color, and file. 
+     * The date input type allows for date setting, the color field opens a color picker, and the file field allows image file uploading.
+     * This introduction provides an overview of various HTML form elements, including checkboxes, select lists, and radio buttons. 
+     * A simple checkbox can be created using a label and input with a checkbox type and an attribute of checked.
+     * A select list can be created using select and option elements.
+     * Set the type of checkboxes or radio buttons to checkbox or radio, and wrap labels and input elements in a fieldset with a legend.
+
+~Organizing Tabular Information in HTML
+          <HTML Tables>
+     * HTML tables are not evil and should be used for tabular data. 
+     * However, misuse of table elements is not acceptable. 
+     * The purpose of semantic HTML is to communicate with computers, using buttons and tables as appropriate. 
+
+          <Dated example of the use of HTML tables for layouts>
+     * During the early days of the web, there was no proper tools for styling or layouting content. 
+     * People used Photoshop to type headlines and export them as images, which were not actual headlines.
+     * Instead, they used HTML tables to break up content into pieces, which was a terrible hack due to its lack of accessibility and reusability.
+
+          <Example of tabular data>
+     * A data table is a chart of information that is best communicated by aligning it into rows and columns.
+     * It is used for comparing prices, population data, election results, product comparisons, and schedules.
+     * The data can be numbers, text, images, or other types. 
+     * Tables in HTML help convey relationships between data cells and header cells, making it more clear and concise.
+     * CSS can be used to rearrange table display and layout for different screen sizes. 
+
+~Building HTML Tables
+     * An HTML table is created using table, TR, TH, and TD elements in the right combination. 
+     * The table element wraps the entire table, while the TR element defines the row and column elements.
+     * The TH element defines column headers, and the TD element marks data cells.
+
+          < Example of an HTML table>
+     * This text explains the basics of table markup in HTML, starting with a table element and ending with a table with six rows and five different birds.
+     * The table has a top row with a header for each column. The content is placed in each row, with the American goldfinch being the first bird. 
+     * The table data is wrapped in a TH element, while the header is typeset in all caps. 
+     * The text also discusses the use of CSS to change the table's style. 
+     * The text covers the basics of creating a complex HTML table, including defining headers, body, footer, and adding a caption.
+     
 
 
 
