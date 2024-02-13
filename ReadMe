@@ -506,19 +506,21 @@ HTML WORKING WITH MEDIA
      * Place essential items first, while less crucial ones are positioned further down.
 
           <The script element>
-     * The script tag is a JavaScript file loader in an HTML document's head, serving as a central hub for connecting components, loading assets, and sharing page information with other sites, ensuring a smooth start to the page.
+     * The script tag is a JavaScript file loader.
+* In an HTML document's head, serving as a central hub for connecting components, loading assets, and sharing page information with other sites, ensuring a smooth start to the page.
 
 ~Content Structuring
             <Main>
      * The main element is a single element used per webpage to indicate the location of the main content to the browser.
 
           <Header>
-     * Header and footer elements indicate page headers and footer areas, respectively, where file metadata lives and is not displayed to users, and are typically found at the top of web pages.
+     * Header is where file metadata lives and they are not displayed to users, and are typically found at the top of web pages.
 
           <Footer>
-     * An article begins with a title, subtitle, author's name, and publication date, and ends with a footer containing links, copyright information, and company details. 
+     8 A footer containing links, copyright information, and company details. 
 
-          <Article>
+          <Article> 
+      * An article begins with a title, subtitle, author's name, and publication date.
       * The article element wraps around any content unit, representing a standalone unit of content.
 
           <Section>
@@ -530,7 +532,7 @@ HTML WORKING WITH MEDIA
 
 ~When it all Comes Together
 * Web pages consist of hundreds of nested elements, each conveying meaning and playing off the other. 
-* To mark up a page, explore the web, find similar sites, and use developer tools. 
+* To mark up a page you have to the explore the web, find similar sites, and use developer tools. 
 * The correct way to combine HTML elements depends on the content and page purpose.
 * Structuring HTML is an art, with creative freedom and the goal of representing human communication in code.
 
@@ -546,14 +548,14 @@ HTML WORKING WITH MEDIA
      * The input element allows users to input their names and email, without a closing tag. 
      * A button is needed for submission, and the form needs to be connected to a backend. 
      * To make it accessible, add a "for" attribute to the label that matches the input's "id" attribute or wrap the input with the label.
-     * Test the connection by clicking on the label to ensure focus jumps to the corresponding input.
+     * This connection can be tested by clicking on the label to ensure focus jumps to the corresponding input.
 
 ~More Form Functions
 * The task involves creating a form for email newsletter subscription, requiring users to input their name and email address, but the input elements currently only accept text, allowing users to type anything.
 
           < More form functions>
      * To ensure a user-friendly form, add the type attribute to each input, such as the name field, email field, and submit button.
-     * The default is text, and if left off, the browser will assume it is text.
+     * The default is text, even when the type is left off, the browser will assume it is text.
      * The email field should be filled with an email address, and the browser will verify the data entered.
      * The submit button should be activated when the user returns to the keyboard. 
      * A required attribute should be added to make the email feel required.
@@ -566,10 +568,8 @@ HTML WORKING WITH MEDIA
 * Forms can be aesthetically pleasing using CSS and semantic HTML elements, enhancing their functionality and allowing for the collection of various data types.
 
           <Other form element types>
-     * The text describes a simple email form with similar elements and a button, but with improved styling. 
-     * It adds three additional fields: password, search, and phone number. 
      * The password field is set to password, search to search, and phone number to tel. 
-     * The browser warns users not to use this field on unsecured sites, but some browsers may display an integrated password manager.
+     * The browser warns users not to use this passwod field on unsecured sites, but some browsers may display an integrated password manager.
      * The search field has a different appearance and keyboard, and the phone number field prompts a telephone pad for the keyboard. 
      * The text area element is used to collect paragraphs or entire articles of text. 
      * The form also includes three input types: date, color, and file. 
@@ -581,8 +581,7 @@ HTML WORKING WITH MEDIA
 
 ~Organizing Tabular Information in HTML
           <HTML Tables>
-     * HTML tables are not evil and should be used for tabular data. 
-     * However, misuse of table elements is not acceptable. 
+     * Misuse of table elements is not acceptable. 
      * The purpose of semantic HTML is to communicate with computers, using buttons and tables as appropriate. 
 
           <Dated example of the use of HTML tables for layouts>
@@ -603,14 +602,8 @@ HTML WORKING WITH MEDIA
      * The TH element defines column headers, and the TD element marks data cells.
 
           < Example of an HTML table>
-     * This text explains the basics of table markup in HTML, starting with a table element and ending with a table with six rows and five different birds.
-     * The table has a top row with a header for each column. The content is placed in each row, with the American goldfinch being the first bird. 
-     * The table data is wrapped in a TH element, while the header is typeset in all caps. 
-     * The text also discusses the use of CSS to change the table's style. 
-     * The text covers the basics of creating a complex HTML table, including defining headers, body, footer, and adding a caption.
-     
-
-
-
-
-
+     * The table has a top row with a header for each column. 
+     * The content is placed in each row.
+     * The table data is wrapped in a TH element.
+     * We make use of CSS to change the table's style. 
+ 
