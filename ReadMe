@@ -614,5 +614,51 @@ What is CSS
 * CS consists of a selector and declaration block which helps improve the appearance of webpages by changing font, colors, and spacing. 
 * It allows multiple styles to be applied to the same pattern.
 
+~CSS Components
+
+* CSS consists of two parts: a property and a value. 
+* for now we only focus on a select set of properties and values, emphasizing the selector aspect. 
+* we will be also incorporating key styles that will improve web pages, starting with unattractive ones and progressing to more advanced styles.
+
+~Writing Your First Comment and Element Selector
+
+<Writing Your First Comment and Element Selector>
+* Before you start adding stlye on you code you have to review the HTML structure you want to style.
+* Look for patterns to use in your CSS code.
+
+<CSS selector>
+* HTML comments are written with a slash star and a star slash, while CSS comments are written with a slash star and a star slash. 
+* Selectors in CSS include the element selector and the color property. 
+* For example, to make all paragraphs blue, use "P" without angle brackets and set the color property to blue. 
+* Try writing styles for heading one and three elements and choose colors for each text.
+
+~Writing a Class Selector
+* Classes are attributes that can be assigned to HTML elements to provide additional information about them, serving as a reference point for styling.
+* To style a paragraph, add a class attribute to the paragraph tag and set its color to green. 
+* In CSS, use a dot (.) before the class name to differentiate it from HTML element selectors. 
+* For specific paragraph parts, use a span element with a class attribute, like "guarantee" to make the sentence orange and bold. 
+* Style declarations can be placed in any order.
+
+~Grouping Selectors
+* Grouping selectors can simplify repetitive code by combining styles for and using a comma.
+* This allows the web browser to apply the style to all paragraphs and list items, evaluating each one individually. 
+* Additionally, using a class can be useful.
+* To style text with the class "mineral water", add the class name to the selector and apply it to specific text using the HTML code.
+* This will style paragraphs, list items, and other elements with the class "mineral" as green.
+
+~Descendent Selectors
+* To style lists, we have to group paragraphs, list items, and elements with the class "mineral" together, style them blue and bold, and purple and uppercase. 
+* A descendant selector allows selecting list items that are descendants of either an ordered or unordered list, similar to a family tree.
+* To apply styles using a descendant selector, use the code "OL LI" without the body tag. 
+* Set the color to blue and font weight to bold, affecting only list items in the ordered list.
+* Remember to read CSS selectors from right to left. 
+
+
+
+~Identify a Color Scheme
+* Color palettes are essential for selecting a color scheme for a website. 
+* Design backgrounds can be created, but if color choices are difficult, resources like Canva and Google's color palette generators are available. 
+* Canva offers three methods for creating color palettes, including extracting colors from a donut picture and trying their dThese resources can help non-designers create visually appealing and effective color schemes for their websites.
+
 
 
