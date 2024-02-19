@@ -606,10 +606,12 @@ HTML WORKING WITH MEDIA
      * The content is placed in each row.
      * The table data is wrapped in a TH element.
      * We make use of CSS to change the table's style. 
+
+
  INTRODUCTION TO CSS
-What is CSS
+     What is CSS
 *A style sheet, akin to a CSS file, stores webpage styles, enhancing visual appeal. 
-*HTML and CSS are closely interconnected and work together.
+* HTML and CSS are closely interconnected and work together.
 * HTML recognizes common elements like paragraphs, headings, lists, and links, but raw HTML can be unattractive.
 * CS consists of a selector and declaration block which helps improve the appearance of webpages by changing font, colors, and spacing. 
 * It allows multiple styles to be applied to the same pattern.
@@ -617,20 +619,20 @@ What is CSS
 ~CSS Components
 
 * CSS consists of two parts: a property and a value. 
-* for now we only focus on a select set of properties and values, emphasizing the selector aspect. 
-* we will be also incorporating key styles that will improve web pages, starting with unattractive ones and progressing to more advanced styles.
+* For now we will only focus on a select set of properties and values, emphasizing the selector aspect. 
+* We will be also incorporating key styles that will improve web pages, starting with unattractive ones and progressing to more advanced styles.
 
 ~Writing Your First Comment and Element Selector
 
-<Writing Your First Comment and Element Selector>
-* Before you start adding stlye on you code you have to review the HTML structure you want to style.
-* Look for patterns to use in your CSS code.
+     	<Writing Your First Comment and Element Selector>
+     * Before you start adding stlye on you code you have to review the HTML structure you want to style.
+     * Look for patterns to use in your CSS code.
 
-<CSS selector>
-* HTML comments are written with a slash star and a star slash, while CSS comments are written with a slash star and a star slash. 
-* Selectors in CSS include the element selector and the color property. 
-* For example, to make all paragraphs blue, use "P" without angle brackets and set the color property to blue. 
-* Try writing styles for heading one and three elements and choose colors for each text.
+          <CSS selector>
+     * HTML comments are written with a slash star and a star slash, while CSS comments are written with a slash star and a star slash. 
+     * Selectors in CSS include the element selector and the color property. 
+     * For example, to make all paragraphs blue, use "P" without angle brackets and set the color property to blue. 
+     * Try writing styles for heading one and three elements and choose colors for each text.
 
 ~Writing a Class Selector
 * Classes are attributes that can be assigned to HTML elements to provide additional information about them, serving as a reference point for styling.
