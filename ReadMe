@@ -659,6 +659,13 @@ What is CSS
 * Color palettes are essential for selecting a color scheme for a website. 
 * Design backgrounds can be created, but if color choices are difficult, resources like Canva and Google's color palette generators are available. 
 * Canva offers three methods for creating color palettes, including extracting colors from a donut picture and trying their dThese resources can help non-designers create visually appealing and effective color schemes for their websites.
+* The text describes a photo of people in a canoe, extracted colors like dark green, pinkish, and lighter grays, and suggests using the image's color scheme in Canva for a suitable website palette.
+* Clicking the back button on a page allows users to create a custom color palette by selecting their initial color and the system generates a complementary color combination.
+* Users can use color combinations like monochromatic, analogous, triadic, or tetradic to find matching colors. 
+* They can adjust color saturation or try variations. 
+* If using the color wheel is too advanced, users can browse available palettes categorized by keywords or upload images to generate a color palette.
 
+~Formatting Color in CSS
+* Named colors are used, but only a limited number of colors have names in CSS, despite the vast online availability. 
 
 
