@@ -622,6 +622,7 @@ HTML WORKING WITH MEDIA
 * For now we will only focus on a select set of properties and values, emphasizing the selector aspect. 
 * We will be also incorporating key styles that will improve web pages, starting with unattractive ones and progressing to more advanced styles.
 
+ADDING CSS SELECTORS
 ~Writing Your First Comment and Element Selector
 
      	<Writing Your First Comment and Element Selector>
@@ -656,7 +657,7 @@ HTML WORKING WITH MEDIA
 * Remember to read CSS selectors from right to left. 
 
 
-
+CSS IMAGES AND COLORS
 ~Identify a Color Scheme
 * Color palettes are essential for selecting a color scheme for a website. 
 * Design backgrounds can be created, but if color choices are difficult, resources like Canva and Google's color palette generators are available. 
