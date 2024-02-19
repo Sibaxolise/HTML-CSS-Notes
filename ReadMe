@@ -606,4 +606,13 @@ HTML WORKING WITH MEDIA
      * The content is placed in each row.
      * The table data is wrapped in a TH element.
      * We make use of CSS to change the table's style. 
- 
+ INTRODUCTION TO CSS
+What is CSS
+*A style sheet, akin to a CSS file, stores webpage styles, enhancing visual appeal. 
+*HTML and CSS are closely interconnected and work together.
+* HTML recognizes common elements like paragraphs, headings, lists, and links, but raw HTML can be unattractive.
+* CS consists of a selector and declaration block which helps improve the appearance of webpages by changing font, colors, and spacing. 
+* It allows multiple styles to be applied to the same pattern.
+
+
+
