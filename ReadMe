@@ -692,4 +692,64 @@ CSS IMAGES AND COLORS
 
 ~Understanding Images in CSS
 * This text discusses the use of images on webpages, their formats, and how to incorporate them using HTML and CSS.
+* Image formats include GIF, PNG, JPEG, bitmap, TIFF, and proprietary formats like PSD. 
+* Traditionally, the web supported three types: GIF, PNG, and JPEG. 
+* However, WebP has emerged as a new format that offers high compression for smaller file sizes, resulting in faster website loading times. 
+* To optimize images, it's important to choose the right format, adjust dimensions, trim or crop unnecessary parts, and resize.
+* Tools like tinypng.com and Adobe Photoshop can help reduce file sizes, improving website loading speed and user experience. 
+* Images can be included in webpages using HTML and CSS, with HTML allowing images to be placed alongside text, while CSS allows background images to be included as decorative elements.
+
+
+~Working with Background Images in CSS
+* To add background images to a webpage, check the CSS comments for two background images and copy the URL. 
+* The image can be used as a background image for the body element in HTML, creating a wallpaper effect. 
+* This works well for low contrast images. 
+* The image can be assigned to specific elements or filled by the text. 
+* The image with growing plants can be used as a background image, but it can be difficult to read and unattractive. 
+* To improve the image's appearance, use the shorthand property background, repeat-X or repeat-Y, and specify values like "center," "right," or "left."
+* The image can also be applied to other elements without specifying a height.
+* Experiment with background images and properties to improve webpage visual appeal. 
+* To reduce empty space and we must use percentages to adjust image placement. 
+* These suggestions offer ideas on using background images and other styling options for website design.
+
+~Understanding Type in CSS
+* People often find unattractive and poorly designed web pages unattractive due to issues with fonts and spacing. 
+* Fonts are typically classified into serif and sans serif types. 
+* Serif fonts have small lines at the ends of letters, used for printed materials with long text blocks. 
+* Sans serif fonts have a modern appearance and are mainly used on the web for extended text. 
+* The default font on the web is usually Times New Roman, but web fonts are more complicated due to the availability of fonts on different devices.
+* To ensure compatibility, font stacks are often specified, including Arial, Helvetica, and sans serif.
+* Other fonts include Verdana, Times, Times New Roman, Georgia, Trebuchet MS, and Comic Sans.
+* Google offers over a thousand fonts for website use, sourced from the internet and loaded into the web browser. 
+
+~Applying Type Formatting with CSS
+* To improve the appearance of a webpage, add a font-family property to the body element and use a font stack of Arial, Helvetica, and Sans-serif. 
+* The web browser will evaluate these fonts in order, and if neither is available, the default Sans-serif font will be used. 
+* Set Arial, Helvetica, and Sans-serif as the font for the entire page, but not just one. 
+* For headings, use a different font to create contrast, such as Georgia or Times New Roman. 
+* Enclose font names with quotes and place commas outside quotes. 
+* Using a contrasting serif font for headings and a Sans-serif font for paragraphs improves readability, especially for longer text on screens. 
+* Experiment with additional properties like italic text and normal font weight for unique headings.
+
+~Understanding and Applying size in CSS
+* The text size is determined by the default style sheet of the web browser, which can be modified or applied selectively to specific sections.
+* Web design uses absolute and relative sizing. 
+* Absolute sizes remain constant, while relative units adjust based on page size. 
+* Web designers prefer relative units for flexibility, as font sizes scale proportionally with the page.
+* Web developers prefer the "rem" font size unit, which is equivalent to 16 pixels. 
+* Multiplying a font size by 16 yields a pixel size of approximately 24 pixels, while 0.8 rem is roughly 13 pixels. 
+* Online calculators can help with these calculations.
+* The Point to REM Converter tool on codebeautify.org allows users to convert between different web size units, such as pixels and points. 
+* It converts font sizes from 18 pixels to 1.125 rem, and offers conversions for em and percent. 
+* The converter also provides conversions for rem, which is the most popular font size. 
+* This knowledge can be applied in code to ensure consistency between design and web page appearance.
+* The "font-size" property can be used to set a specific size, like 2rem.
+* Experimenting with different values can help confirm the current size. 
+* The body font size scales proportionately to all other fonts, except for the h1 heading. 
+* This relates to cascading and inheritance in CSS. 
+* It is also mentions that adding a specific style for h3 can make the text larger.
+* The statement suggests that lower-level headings should not be smaller than the h1 heading, but can be sized to suit specific situations. 
+* The default heading sizes are determined by your browser's style sheet, but using CSS allows for customization, rather than modifying HTML.
+
+
 
