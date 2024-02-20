@@ -670,5 +670,15 @@ CSS IMAGES AND COLORS
 
 ~Formatting Color in CSS
 * Named colors are used, but only a limited number of colors have names in CSS, despite the vast online availability. 
+* The color chart provides examples of named colors, but your color palette may not have any. 
+* If the desired color doesn't have a name, hex codes, also known as hex values or hex format, are the most common online representation.
+* Hex values are six-digit numbers and letters, representing red, green, and blue.
+* They are commonly used in color names and color palettes on the web.
+* Canva's color palettes also display hex values. 
+* Different syntax can be used when editing CSS, such as shortened hex values for identical two-digit pairs.
+* The RGB format, represented by Base 10 numbers for red, green, and blue channels, is used in various platforms like Squarespace. 
+* Other color formats like HSL or HSLA may also be used.
+* Google offers a color picker for converting color values, making it easy to convert colors.
+* DuckDuckGo offers color conversions, complementary and analogous colors, and Color Hex website for exploring shades, tints, and palettes for your chosen color.
 
 
