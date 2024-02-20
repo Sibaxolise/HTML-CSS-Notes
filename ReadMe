@@ -751,5 +751,25 @@ CSS IMAGES AND COLORS
 * The statement suggests that lower-level headings should not be smaller than the h1 heading, but can be sized to suit specific situations. 
 * The default heading sizes are determined by your browser's style sheet, but using CSS allows for customization, rather than modifying HTML.
 
+~Understanding the Box Model in CSS
+* HTML elements are like boxes with properties, including content, border, padding, and margin. 
+* Content is the text inside the box, while border is a line surrounding the content.
+* Padding is the space between the border and content, with its own background color. 
+* Margin separates elements on the page. 
+* Properties can be assigned to individual or all four sides, and shorthand values provide a concise way to set these properties.
+* To create a red border around a slide element, use the CSS property "border: 1px solid red". 
+* For margins, use "margin: 1rem" to add one root em (root em) to all four sides, or "margin-right" to add the margin to the right side. 
+* Padding offers flexibility, with fractional REMs for all four sides or only one side. 
+* Explore the possibilities of using borders, margins, and padding to make desired changes on a web page.
+
+~Working with Border, Padding, and Margin in CSS
+
+* By applying these CSS modifications, we can achieve a well-designed page with minimal CSS.
+
+~Advanced CSS Properties and Concepts
+<Styling Links With CSS>
+
+
+
 
 
