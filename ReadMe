@@ -681,4 +681,15 @@ CSS IMAGES AND COLORS
 * Google offers a color picker for converting color values, making it easy to convert colors.
 * DuckDuckGo offers color conversions, complementary and analogous colors, and Color Hex website for exploring shades, tints, and palettes for your chosen color.
 
+~Background and Text Color in CSS
+* To improve readability on a white background, change the pink color in the H1 section to a teal color using the named color chart in the exercise files. 
+* Select a color palette like "Fiery Cracked Earth" in Canva and use the hex values provided on the CSS named Colors Chart.
+* Adjust the background color for elements using the "background-color" property and adjust the text color for better readability.
+* To style an unordered list (ul), use a beige color from Canva as the background. 
+* The "body" HTML element can also be styled with a specific color like yellow. 
+* This allows for customization of the entire page's background color. 
+* You can select colors from the named color palette or create custom colors using Canva.
+
+~Understanding Images in CSS
+* This text discusses the use of images on webpages, their formats, and how to incorporate them using HTML and CSS.
 
