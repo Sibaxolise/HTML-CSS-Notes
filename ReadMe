@@ -768,7 +768,12 @@ CSS IMAGES AND COLORS
 
 ~Advanced CSS Properties and Concepts
 <Styling Links With CSS>
-
+* Chrome's guest tab doesn't show visit history for certain courses, making links appear unvisited.
+* To style links, we use the "a" anchor tag and set the color.
+* The browser's style sheet had blue and purple for links, but now it has a new style that makes everything blue. 
+* There are different states for links, and exceptions can be made for each state.
+* One common exception is the "a:hover" state, which triggers when we hover over a link.
+* To achieve separate styles for visited and unvisited links, define the blue color as the "a:link" style for unvisited links and the purple shade as the "a:visited" style for visited links.
 
 
 
