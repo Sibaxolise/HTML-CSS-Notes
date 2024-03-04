@@ -774,6 +774,29 @@ CSS IMAGES AND COLORS
 * There are different states for links, and exceptions can be made for each state.
 * One common exception is the "a:hover" state, which triggers when we hover over a link.
 * To achieve separate styles for visited and unvisited links, define the blue color as the "a:link" style for unvisited links and the purple shade as the "a:visited" style for visited links.
+* Keep underlines in links within long text for colorblind or disabled users. 
+* Remove underlines in navigation bars or areas where users expect clicks and redirects. 
+* Style web page links visually appealing with these simple tips.
+
+~Inheritance in CSS
+* When the  "body" element is set to Arial, and all HTML elements within it inherit the same Arial font. 
+* This is because font-related styles typically inherit, preventing a mishmash of different fonts. 
+* However, styles related to the box model, like borders, apply only to the specified element in the style. 
+* For example, using a selector "*" to select all elements on the page and apply the border to it instead of the body results in a chaotic web page.
+* Most people prefer a single border application in their document, avoiding inheritance. 
+* Developers may be more aware of this, but it's important to be aware of it.
+
+~Debugging CSS with Borders and Background Colors
+* Debugging is essential when styling elements with CSS, as it can reveal hidden information.
+* One way to do this is by adding a background color or border to the desired element, like an unordered list (UL) to show its position on the page.
+* The link within a list item (LI) is only as wide as its content, highlighting the distinction between block and inline elements. 
+* Block elements, like UL and LI, take up the full width of their container, while inline elements, like links (A), are only as wide as their content.
++ To apply a hover effect to the LI, change the link to an LI (list item) and apply the "LI:hover" selector. 
+* This will cover the entire document width, allowing clicking only when hovering over the A element. 
+* To fix this issue, add the CSS style "display: block" to the A selector and define a hover state for the link.
+* Experimenting with borders and background colors can help debug CSS code. 
+* If unsure, add a border and background colors. 
+* Focus on functionality, remove unattractive elements, and transform the design into a beautiful one once it's correct.
 
 
 
